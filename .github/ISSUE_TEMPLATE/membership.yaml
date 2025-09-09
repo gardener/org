@@ -51,7 +51,7 @@ body:
   attributes:
     label: "Sponsor 1"
     description: GitHub handle of your sponsor
-    placeholder: e.g. @sponsor-1
+    placeholder: e.g. @...
   validations:
     required: true
 - id: sponsor_2
@@ -59,7 +59,7 @@ body:
   attributes:
     label: "Sponsor 2"
     description: GitHub handle of your sponsor
-    placeholder: e.g. @sponsor-2
+    placeholder: e.g. @...
   validations:
     required: true
 - id: contributions
