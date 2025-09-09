@@ -1,0 +1,75 @@
+# Modifications Copyright SAP SE or an SAP affiliate company and Gardener contributors.
+name: Membership Request
+description: Request a membership status in the project
+labels: ["kind/task"]
+title: "Membership role <role-name> for <your-GH-handle>"
+body:
+- id: motivation
+  type: textarea
+  attributes:
+    label: "Motivation"
+    description: Describe the motivation of this request and your background shortly - we'd like to know you :-)
+- id: github
+  type: input
+  attributes:
+    label: GitHub Username
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: role
+  type: dropdown
+  attributes:
+    label: "Requested Role"
+    description: Choose the community role you want to apply for as described in [community roles](https://gardener.cloud/docs/contribute/code/roles).
+    options:
+    - "member"
+    - "reviewer"
+- id: repos
+  type: input
+  attributes:
+    label: "Repository"
+    placeholder: e.g. gardener/gardener
+  validations:
+    required: true
+- id: requirements
+  type: checkboxes
+  attributes:
+    label: Requirements
+    options:
+    - label: I've read the [Gardener contributor guideline](https://github.com/gardener/gardener/blob/master/CONTRIBUTING.md).
+      required: true
+    - label: I fulfill all requirements of the requested role and acknowledge its responsibilities (see [community roles](https://gardener.cloud/docs/contribute/code/roles)).
+      required: true
+    - label: I verified my sponsors have the required community role.
+      required: true
+    - label: I have spoken to my sponsors ahead of this application, and they have agreed to sponsor my application.
+      required: true
+    - label: I prepared and attached a record of contributions in this issue.
+      required: true
+- id: sponsor_1
+  type: input
+  attributes:
+    label: "Sponsor 1"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @...
+  validations:
+    required: true
+- id: sponsor_2
+  type: input
+  attributes:
+    label: "Sponsor 2"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @...
+  validations:
+    required: true
+- id: contributions
+  type: textarea
+  attributes:
+    label: List of contributions to the Gardener project
+    placeholder: |
+      - PRs reviewed / authored
+      - Gardener Enhancement Proposals (GEPs) authored / reviewed
+      - Issues responded to
+      - Community review meetings contributed to
+  validations:
+    required: true
