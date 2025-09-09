@@ -1,0 +1,11 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+aliases:
+  gardener-technical-steering:
+  - rfranzke
+  - ScheererJ
+  - timerbett
+  - vlerenc
+  gardener-org-admins:
+  - oliver-goetz
+  - timuthy
