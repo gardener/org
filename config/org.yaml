@@ -1,0 +1,1224 @@
+orgs:
+  gardener:
+    company: ""
+    default_repository_permission: none
+    description: Universal Kubernetes at Scale
+    email: gardener@googlegroups.com
+    has_organization_projects: true
+    has_repository_projects: true
+    location: Germany
+    admins:
+    - gardener-ci-robot
+    - 8R0WNI3
+    - AndreasBurger
+    - ashwani2k
+    - ccwienk
+    - dguendisch
+    - dimityrmirchev
+    - dkistner
+    - FHeine
+    - hendrikKahl
+    - JordanJordanov
+    - juergenschneider
+    - marc1404
+    - marwinski
+    - nickytd
+    - NiclasMoldenhauer
+    - oliver-goetz
+    - OrlinVasilev
+    - petersutter
+    - RaphaelVogel
+    - rfranzke
+    - SAP-OSPO-ADMIN
+    - unmarshall
+    - vlerenc
+    - zkdev
+    members:
+    - aaronfern
+    - acumino
+    - adenitiu
+    - afritzler
+    - ajinkyapatil8190
+    - AleksandarSavchev
+    - andreasschlosser
+    - anluerz
+    - anveshreddy18
+    - ary1992
+    - axel7born
+    - Bobi-Wan
+    - BoHristova
+    - CaptainIRS
+    - chrisbal-b
+    - chrkl
+    - DelinaDeng
+    - dergeberl
+    - Diaphteiros
+    - dimitar-kostadinov
+    - dnaeon
+    - DockToFuture
+    - domdom82
+    - donistz
+    - elankath
+    - enrico-kaack-comp
+    - etiennnr
+    - fabianburth
+    - finally-fancy
+    - gagan16k
+    - gardener-answering-machine
+    - gardener-demo-flux
+    - Gchbg
+    - georgibaltiev
+    - grolu
+    - guewa
+    - hardikdr
+    - hebelsan
+    - HeckEK
+    - heldkat
+    - hown3d
+    - ialidzhikov
+    - In-Ko
+    - IndritFejza
+    - ishan16696
+    - istvanballok
+    - iypetrov
+    - Jessica-Katz
+    - jguipi
+    - kevin-lacoo
+    - klocke-io
+    - kon-angelo
+    - Kostov6
+    - LucaBernstein
+    - maboehm
+    - mandelsoft
+    - MartinWeindel
+    - matthias-horne
+    - maximilianbraun
+    - Michael5601
+    - mimiteto
+    - mliepold
+    - MrBatschner
+    - n-boshnakov
+    - neo-liang-sap
+    - nschad
+    - pierrelucorsini
+    - plkokanov
+    - r4mek
+    - RadaBDimitrova
+    - RAPSNX
+    - renormalize
+    - reshnm
+    - rickardsjp
+    - robertgraeff
+    - robinschneider
+    - Roncossek
+    - rrhubenov
+    - ScheererJ
+    - schrodit
+    - seshachalam-yv
+    - shafeeqes
+    - shaoyongfeng
+    - Shegox
+    - shreyas-s-rao
+    - Shreyas-s14
+    - takoverflow
+    - tedteng
+    - theoddora
+    - thiyyakat
+    - timebertt
+    - timuthy
+    - tobschli
+    - TuanAnh17N
+    - vasu1124
+    - VelmiraS
+    - vicwicker
+    - Vincinator
+    - vitanovs
+    - voelzmo
+    - vpnachev
+    - Wieneo
+    - wpross
+    - xiaofenhappy
+    members_can_create_repositories: false
+    name: Gardener
+    teams:
+      alpine-conntrack-maintainers:
+        description: Maintainers of https://github.com/gardener/alpine-conntrack
+        maintainers:
+        - axel7born
+        - DockToFuture
+        - ScheererJ
+        members:
+        - domdom82
+        privacy: closed
+        repos:
+          alpine-conntrack: admin
+      alpine-iptables-maintainers:
+        description: alpine-iptables-maintainers
+        maintainers:
+        - DockToFuture
+        members:
+        - domdom82
+        - axel7born
+        - ScheererJ
+        privacy: closed
+        repos:
+          alpine-iptables: maintain
+      apiserver-proxy-maintainers:
+        description: ""
+        maintainers:
+        - marwinski
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          apiserver-proxy: admin
+      auditlog-maintainers:
+        description: ""
+        maintainers:
+        - vpnachev
+        - dimityrmirchev
+        privacy: closed
+        repos:
+          auditlog-forwarder: admin
+          gardener-extension-auditing: admin
+      autoscaler-maintainers:
+        description: ""
+        maintainers:
+        - ashwani2k
+        - unmarshall
+        members:
+        - voelzmo
+        - elankath
+        - plkokanov
+        - shreyas-s-rao
+        - gagan16k
+        - r4mek
+        - aaronfern
+        - thiyyakat
+        - takoverflow
+        privacy: closed
+        repos:
+          autoscaler: admin
+      aws-custom-route-controller-maintainers:
+        description: Maintainers of https://github.com/gardener/aws-custom-route-controller
+        maintainers:
+        - MartinWeindel
+        - DockToFuture
+        - ScheererJ
+        - kon-angelo
+        members:
+        - domdom82
+        - axel7born
+        privacy: closed
+        repos:
+          aws-custom-route-controller: admin
+      cert-manager-maintainers:
+        description: ""
+        maintainers:
+        - marc1404
+        - MartinWeindel
+        privacy: closed
+        repos:
+          cert-management: admin
+      chaos-engineering-maintainers:
+        description: Maintainers of the chaos engineering tools
+        maintainers:
+        - vlerenc
+        - dguendisch
+        members:
+        - MartinWeindel
+        - shaoyongfeng
+        - kevin-lacoo
+        - adenitiu
+        privacy: closed
+        repos:
+          chaos-engineering: maintain
+      chocolatey-packages-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        - grolu
+        members:
+        - AleksandarSavchev
+        privacy: closed
+        repos:
+          chocolatey-packages: admin
+      ci:
+        description: Used for setting webhooks (admin rights required on repos)
+        members:
+        - gardener-ci-robot
+        privacy: closed
+        repos:
+          autoscaler: admin
+          cicd-test: admin
+          cluster-api-provider-gardener: admin
+          dashboard: admin
+          dependency-watchdog: admin
+          documentation: admin
+          etcd-backup-restore: admin
+          etcd-druid: write
+          falco-event-ingestor: admin
+          gardenctl-v2: admin
+          gardener: admin
+          gardener-discovery-server: admin
+          gardener-extension-image-rewriter: admin
+          gardener-extension-networking-calico: admin
+          gardener-extension-networking-cilium: admin
+          gardener-extension-os-coreos: admin
+          gardener-extension-os-gardenlinux: admin
+          gardener-extension-os-suse-chost: admin
+          gardener-extension-os-ubuntu: admin
+          gardener-extension-provider-alicloud: admin
+          gardener-extension-provider-aws: admin
+          gardener-extension-provider-azure: admin
+          gardener-extension-provider-equinix-metal: admin
+          gardener-extension-provider-gcp: admin
+          gardener-extension-provider-openstack: admin
+          gardener-extension-registry-cache: admin
+          gardener-extension-runtime-gvisor: admin
+          gardener-extension-shoot-cert-service: admin
+          gardener-extension-shoot-dns-service: admin
+          gardener-extension-shoot-oidc-service: write
+          gardener-extension-shoot-rsyslog-relp: admin
+          gardener-metrics-exporter: admin
+          gardenlogin: admin
+          ingress-default-backend: admin
+          k8s-conformance: write
+          landscaper: write
+          landscaper-service: write
+          landscapercli: write
+          logging: write
+          machine-controller-manager: admin
+          oidc-apps-controller: write
+          service-account-issuer-discovery: admin
+          terminal-controller-manager: admin
+          terraformer: admin
+      ci-infra-collaborators:
+        description: People working on Gardener prow
+        maintainers:
+        - marc1404
+        - unmarshall
+        - dimityrmirchev
+        - oliver-goetz
+        members:
+        - ialidzhikov
+        - Kostov6
+        - LucaBernstein
+        - ary1992
+        - acumino
+        - shafeeqes
+        - plkokanov
+        - dimitar-kostadinov
+        - tobschli
+        privacy: closed
+        repos:
+          ci-infra: read
+      ci-infra-maintainers:
+        description: Maintainers of the ci-infra repository
+        maintainers:
+        - marc1404
+        - rfranzke
+        - dimityrmirchev
+        - oliver-goetz
+        members:
+        - ialidzhikov
+        - LucaBernstein
+        - ScheererJ
+        - timuthy
+        privacy: closed
+        repos:
+          ci-infra: write
+      ci-maintainers:
+        description: ""
+        maintainers:
+        - ccwienk
+        members:
+        - Michael5601
+        - TuanAnh17N
+        privacy: closed
+        repos:
+          cc-utils: admin
+          concourse: maintain
+          github-oidc-federation: admin
+      cnudie-transport-tool-maintainers:
+        description: ""
+        maintainers:
+        - enrico-kaack-comp
+        privacy: closed
+      component-spec-maintainers:
+        description: ""
+        maintainers:
+        - ccwienk
+        privacy: closed
+      controller-manager-library-maintainers:
+        description: ""
+        maintainers:
+        - marc1404
+        - MartinWeindel
+        privacy: closed
+        repos:
+          controller-manager-library: admin
+      coredns-config-adapter-maintainers:
+        description: ""
+        maintainers:
+        - DockToFuture
+        members:
+        - domdom82
+        - axel7born
+        - ScheererJ
+        privacy: closed
+        repos:
+          coredns-config-adapter: admin
+      dashboard-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        members:
+        - grolu
+        - klocke-io
+        privacy: closed
+        repos:
+          dashboard: admin
+      dependency-watchdog-maintainers:
+        description: ""
+        maintainers:
+        - ashwani2k
+        - unmarshall
+        members:
+        - elankath
+        - shreyas-s-rao
+        - aaronfern
+        - thiyyakat
+        privacy: closed
+        repos:
+          dependency-watchdog: admin
+      diki-maintainers:
+        description: ""
+        maintainers:
+        - dimityrmirchev
+        members:
+        - AleksandarSavchev
+        - georgibaltiev
+        privacy: closed
+        repos:
+          diki: maintain
+          diki-operator: maintain
+      documentation-maintainers:
+        description: Gardener website and documentation maintainers
+        maintainers:
+        - marc1404
+        - rfranzke
+        - JordanJordanov
+        members:
+        - Kostov6
+        - n-boshnakov
+        - dimitar-kostadinov
+        - klocke-io
+        - RadaBDimitrova
+        - BoHristova
+        - VelmiraS
+        privacy: closed
+        repos:
+          docforge: maintain
+          documentation: admin
+          documentation-demo: admin
+      egress-filter-refresher-maintainers:
+        description: Maintainers of https://github.com/gardener/egress-filter-refresher
+        maintainers:
+        - marwinski
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          egress-filter-refresher: admin
+      etcd-druid-admins:
+        description: Admins for projects under etcd-druid ecosystem
+        maintainers:
+        - ashwani2k
+        - unmarshall
+        members:
+        - shreyas-s-rao
+        - ishan16696
+        privacy: closed
+        repos:
+          etcd-backup-restore: admin
+          etcd-druid: admin
+          etcd-steward: admin
+      etcd-druid-maintainers:
+        description: ""
+        maintainers:
+        - unmarshall
+        - shreyas-s-rao
+        - ishan16696
+        - renormalize
+        - anveshreddy18
+        - aaronfern
+        - seshachalam-yv
+        members:
+        - CaptainIRS
+        - Shreyas-s14
+        privacy: closed
+        repos:
+          etcd-backup-restore: maintain
+          etcd-druid: maintain
+          etcd-steward: maintain
+          etcd-wrapper: maintain
+      ext-authz-server-maintainers:
+        description: Maintainers of https://github.com/gardener/ext-authz-server
+        maintainers:
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          ext-authz-server: admin
+      external-dns-management-maintainers:
+        description: ""
+        maintainers:
+        - marc1404
+        - MartinWeindel
+        privacy: closed
+        repos:
+          external-dns-management: admin
+      gardenctl-v2-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        members:
+        - grolu
+        - klocke-io
+        privacy: closed
+        repos:
+          gardenctl-v2: admin
+      gardener-collaborators:
+        description: Gardener collaborators
+        maintainers:
+        - nickytd
+        - petersutter
+        - dimityrmirchev
+        - dguendisch
+        - hendrikKahl
+        - oliver-goetz
+        members:
+        - chrkl
+        - voelzmo
+        - MartinWeindel
+        - vicwicker
+        - vpnachev
+        - rickardsjp
+        - Kostov6
+        - rrhubenov
+        - axel7born
+        - istvanballok
+        - Wieneo
+        - vitanovs
+        - MrBatschner
+        - DockToFuture
+        - ScheererJ
+        - shreyas-s-rao
+        - dimitar-kostadinov
+        - AleksandarSavchev
+        - RadaBDimitrova
+        - Roncossek
+        privacy: closed
+        repos:
+          gardener: read
+      gardener-core-networking-maintainers:
+        description: Maintainers of networking related topics of https://github.com/gardener/gardener
+        maintainers:
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+      gardener-custom-metrics-maintainers:
+        description: ""
+        maintainers:
+        - voelzmo
+        members:
+        - ialidzhikov
+        - plkokanov
+        privacy: closed
+      gardener-discovery-server-maintainers:
+        description: ""
+        maintainers:
+        - vpnachev
+        - dimityrmirchev
+        members:
+        - theoddora
+        privacy: closed
+        repos:
+          gardener-discovery-server: maintain
+      gardener-extension-networking-calico-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-networking-calico
+        maintainers:
+        - marwinski
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          gardener-extension-networking-calico: admin
+      gardener-extension-networking-cilium-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-networking-cilium
+        maintainers:
+        - marwinski
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          gardener-extension-networking-cilium: admin
+      gardener-extension-os-coreos-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-os-coreos
+        maintainers:
+        - rfranzke
+        members:
+        - Vincinator
+        - ialidzhikov
+        - MrBatschner
+        - Roncossek
+        privacy: closed
+        repos:
+          gardener-extension-os-coreos: write
+      gardener-extension-os-gardenlinux-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-os-gardenlinux
+        maintainers:
+        - marwinski
+        members:
+        - Vincinator
+        - MrBatschner
+        - Roncossek
+        privacy: closed
+        repos:
+          gardener-extension-os-gardenlinux: admin
+      gardener-extension-os-suse-chost-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-os-suse-chost
+        members:
+        - Vincinator
+        - MrBatschner
+        - Roncossek
+        privacy: closed
+        repos:
+          gardener-extension-os-suse-chost: admin
+      gardener-extension-os-ubuntu-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-os-ubuntu
+        members:
+        - Vincinator
+        - MrBatschner
+        - Roncossek
+        privacy: closed
+        repos:
+          gardener-extension-os-ubuntu: admin
+      gardener-extension-provider-alicloud-maintainers:
+        description: Maintainers of repositories related to the Alicloud provider extension.
+        members:
+        - shaoyongfeng
+        - kevin-lacoo
+        privacy: closed
+        repos:
+          gardener-extension-provider-alicloud: write
+          machine-controller-manager-provider-alicloud: write
+          terraformer: write
+      gardener-extension-provider-aws-maintainers:
+        description: Maintainers of repositories related to the AWS provider extension.
+        maintainers:
+        - AndreasBurger
+        - kon-angelo
+        members:
+        - hebelsan
+        - wpross
+        - matthias-horne
+        privacy: closed
+        repos:
+          aws-custom-route-controller: maintain
+          ecr-credential-provider: maintain
+          gardener-extension-provider-aws: admin
+          machine-controller-manager-provider-aws: write
+          terraformer: write
+      gardener-extension-provider-azure-maintainers:
+        description: Maintainers of repositories related to the Azure provider extension.
+        maintainers:
+        - AndreasBurger
+        - kon-angelo
+        members:
+        - hebelsan
+        - wpross
+        - matthias-horne
+        privacy: closed
+        repos:
+          azure-acr-credential-provider: admin
+          gardener-extension-provider-azure: admin
+          machine-controller-manager-provider-azure: write
+          terraformer: write
+      gardener-extension-provider-equinix-metal-maintainers:
+        description: Maintainers of repositories related to the EquinixMetal provider
+          extension.
+        maintainers:
+        - rfranzke
+        privacy: closed
+        repos:
+          gardener-extension-provider-equinix-metal: write
+          machine-controller-manager-provider-equinix-metal: write
+          terraformer: write
+      gardener-extension-provider-gcp-maintainers:
+        description: Maintainers of repositories related to the GCP provider extension.
+        maintainers:
+        - AndreasBurger
+        - kon-angelo
+        members:
+        - hebelsan
+        - wpross
+        - matthias-horne
+        privacy: closed
+        repos:
+          gardener-extension-provider-gcp: admin
+          machine-controller-manager-provider-gcp: admin
+          terraformer: write
+      gardener-extension-provider-openstack-maintainers:
+        description: Maintainers of repositories related to the OpenStack provider extension.
+        maintainers:
+        - AndreasBurger
+        - kon-angelo
+        members:
+        - hebelsan
+        - wpross
+        - matthias-horne
+        privacy: closed
+        repos:
+          gardener-extension-provider-openstack: admin
+          machine-controller-manager-provider-openstack: admin
+          terraformer: write
+      gardener-extension-registry-cache-maintainers:
+        description: maintainers of https://github.com/gardener/gardener-extension-registry-cache
+        members:
+        - ialidzhikov
+        - dimitar-kostadinov
+        privacy: closed
+        repos:
+          gardener-extension-registry-cache: maintain
+      gardener-extension-runtime-gvisor-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-runtime-gvisor
+        maintainers:
+        - marwinski
+        members:
+        - Vincinator
+        - MrBatschner
+        - Roncossek
+        privacy: closed
+        repos:
+          gardener-extension-runtime-gvisor: write
+      gardener-extension-shoot-cert-service-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-shoot-cert-service
+        maintainers:
+        - marc1404
+        members:
+        - MartinWeindel
+        - timuthy
+        privacy: closed
+        repos:
+          gardener-extension-shoot-cert-service: admin
+      gardener-extension-shoot-dns-service-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-shoot-dns-service
+        maintainers:
+        - marc1404
+        members:
+        - MartinWeindel
+        privacy: closed
+        repos:
+          gardener-extension-shoot-dns-service: admin
+      gardener-extension-shoot-falco-service-maintainers:
+        description: Maintainers of the Gardener Falco extension
+        maintainers:
+        - marwinski
+        members:
+        - AleksandarSavchev
+        - georgibaltiev
+        privacy: closed
+        repos:
+          falco-event-db-schema: maintain
+          falco-event-ingestor: admin
+          falco-event-provider: maintain
+          falcosidekick: maintain
+          gardener-extension-shoot-falco-service: admin
+      gardener-extension-shoot-networking-filter-maintainers:
+        description: ""
+        maintainers:
+        - marwinski
+        - ScheererJ
+        members:
+        - domdom82
+        - MartinWeindel
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          gardener-extension-shoot-networking-filter: admin
+      gardener-extension-shoot-networking-problemdetector-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-shoot-networking-problemdetector
+        maintainers:
+        - MartinWeindel
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        - ScheererJ
+        privacy: closed
+        repos:
+          gardener-extension-shoot-networking-problemdetector: maintain
+      gardener-extension-shoot-networking-traffic-gauger-maintainers:
+        description: ""
+        maintainers:
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          gardener-extension-shoot-networking-traffic-gauger: admin
+      gardener-extensions-maintainers:
+        description: Maintainers of extensions repositories
+        maintainers:
+        - MartinWeindel
+        - AndreasBurger
+        - kon-angelo
+        members:
+        - hebelsan
+        - matthias-horne
+        privacy: closed
+        repos:
+          terraformer: maintain
+      gardener-maintainers:
+        description: Gardener maintainers
+        maintainers:
+        - marc1404
+        - rfranzke
+        - oliver-goetz
+        members:
+        - ialidzhikov
+        - Kostov6
+        - LucaBernstein
+        - ary1992
+        - acumino
+        - ScheererJ
+        - shafeeqes
+        - plkokanov
+        - timuthy
+        - tobschli
+        privacy: closed
+        repos:
+          cluster-api-provider-gardener: maintain
+          falco-event-db-schema: write
+          falco-event-ingestor: write
+          falco-event-provider: write
+          gardener: write
+          gardener-extension-image-rewriter: write
+          gardener-extension-networking-calico: write
+          gardener-extension-networking-cilium: write
+          gardener-extension-os-coreos: write
+          gardener-extension-os-gardenlinux: write
+          gardener-extension-os-suse-chost: write
+          gardener-extension-os-ubuntu: write
+          gardener-extension-provider-alicloud: write
+          gardener-extension-provider-aws: write
+          gardener-extension-provider-azure: write
+          gardener-extension-provider-equinix-metal: write
+          gardener-extension-provider-gcp: write
+          gardener-extension-provider-openstack: write
+          gardener-extension-registry-cache: read
+          gardener-extension-runtime-gvisor: write
+          gardener-extension-shoot-cert-service: write
+          gardener-extension-shoot-dns-service: write
+          gardener-extension-shoot-falco-service: write
+          ingress-default-backend: write
+      gardener-metrics-exporter-maintainer:
+        description: ""
+        maintainers:
+        - istvanballok
+        privacy: closed
+        repos:
+          gardener-metrics-exporter: admin
+      gardener-observability-maintainers:
+        description: Gardener Observability Team
+        maintainers:
+        - chrkl
+        - nickytd
+        members:
+        - vicwicker
+        - rickardsjp
+        - rrhubenov
+        - istvanballok
+        - Bobi-Wan
+        - iypetrov
+        privacy: closed
+        repos:
+          observability: admin
+      gardener/gardener-extension-traefik-maintainers:
+        description: ""
+        maintainers:
+        - DockToFuture
+        members:
+        - domdom82
+        - axel7born
+        - ScheererJ
+        privacy: closed
+        repos:
+          gardener-extension-shoot-traefik: admin
+      gardenlogin-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        members:
+        - grolu
+        - klocke-io
+        privacy: closed
+        repos:
+          gardenlogin: admin
+      homebrew-tap-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        - grolu
+        members:
+        - AleksandarSavchev
+        privacy: closed
+        repos:
+          homebrew-tap: admin
+      ingress-gce-maintainers:
+        description: maintainers of https://github.com/gardener/ingress-gce
+        maintainers:
+        - AndreasBurger
+        - ScheererJ
+        members:
+        - domdom82
+        - hebelsan
+        - axel7born
+        - DockToFuture
+        - kon-angelo
+        privacy: closed
+        repos:
+          ingress-gce: maintain
+      inventory-maintainers:
+        description: ""
+        maintainers:
+        - nickytd
+        - dimityrmirchev
+        members:
+        - dnaeon
+        - Bobi-Wan
+        privacy: closed
+        repos:
+          inventory: admin
+          inventory-extension-odg: admin
+      ipam-controller-maintainers:
+        description: ipam controller maintainers
+        maintainers:
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          aws-ipam-controller: admin
+      kupid-maintainers:
+        description: ""
+        maintainers:
+        - ashwani2k
+        - unmarshall
+        members:
+        - shreyas-s-rao
+        privacy: closed
+        repos:
+          kupid: admin
+      lakom-maintainers:
+        description: ""
+        maintainers:
+        - vpnachev
+        - dimityrmirchev
+        members:
+        - theoddora
+        - rrhubenov
+        privacy: closed
+        repos:
+          gardener-extension-shoot-lakom-service: maintain
+      landscaper-maintainers:
+        description: ""
+        maintainers:
+        - Diaphteiros
+        - In-Ko
+        - guewa
+        - maximilianbraun
+        members:
+        - reshnm
+        - Diaphteiros
+        - In-Ko
+        - robertgraeff
+        - enrico-kaack-comp
+        - guewa
+        - maximilianbraun
+        privacy: closed
+        repos:
+          landscaper: maintain
+          landscaper-examples: maintain
+          landscaper-service: maintain
+          landscapercli: maintain
+        teams:
+          landscaper-admin:
+            description: ""
+            maintainers:
+            - Diaphteiros
+            - In-Ko
+            - guewa
+            - maximilianbraun
+            privacy: closed
+            repos:
+              landscaper: admin
+              landscaper-examples: admin
+              landscaper-service: admin
+              landscapercli: admin
+      logging-maintainers:
+        description: ""
+        maintainers:
+        - nickytd
+        members:
+        - dnaeon
+        - rrhubenov
+        - Bobi-Wan
+        - iypetrov
+        privacy: closed
+        repos:
+          kube-rbac-proxy-watcher: maintain
+          logging: maintain
+          oidc-apps-controller: maintain
+      mcm-maintainers:
+        description: This is the set of maintainers for machine-controller-managers repository.
+        maintainers:
+        - ashwani2k
+        - unmarshall
+        members:
+        - elankath
+        - gagan16k
+        - r4mek
+        - kon-angelo
+        - aaronfern
+        - thiyyakat
+        - takoverflow
+        privacy: closed
+        repos:
+          machine-controller-manager: admin
+          machine-controller-manager-provider-alicloud: write
+          machine-controller-manager-provider-aws: admin
+          machine-controller-manager-provider-azure: admin
+          machine-controller-manager-provider-equinix-metal: write
+          machine-controller-manager-provider-gcp: admin
+          machine-controller-manager-provider-openstack: write
+          machine-controller-manager-provider-sampleprovider: admin
+      monitoring-maintainers:
+        description: People focusing on monitoring-related topics
+        members:
+        - chrkl
+        - vicwicker
+        - rickardsjp
+        - istvanballok
+        privacy: closed
+        repos:
+          gardener-metrics-exporter: admin
+          observability: admin
+      network-problem-detector-maintainers:
+        description: Maintainers of https://github.com/gardener/network-problem-detector
+        maintainers:
+        - MartinWeindel
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        - ScheererJ
+        privacy: closed
+        repos:
+          network-problem-detector: maintain
+      network-traffic-gauger-maintainers:
+        description: Maintainers of network-traffic-gauger repository
+        maintainers:
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - DockToFuture
+        privacy: closed
+        repos:
+          network-traffic-gauger: admin
+      oidc-webhook-authenticator-maintainers:
+        description: ""
+        maintainers:
+        - nickytd
+        - vpnachev
+        - dimityrmirchev
+        members:
+        - theoddora
+        privacy: closed
+        repos:
+          garden-shoot-trust-configurator: maintain
+          gardener-extension-shoot-oidc-service: maintain
+          oidc-apps-controller: write
+          oidc-webhook-authenticator: maintain
+          service-account-issuer-discovery: maintain
+      opentelemetry-collector-maintainers:
+        description: Maintainers of opentelemetry-collector project
+        maintainers:
+        - dnaeon
+        - nickytd
+        - rrhubenov
+        members:
+        - chrkl
+        - vicwicker
+        - rickardsjp
+        - istvanballok
+        - Bobi-Wan
+        - iypetrov
+        privacy: closed
+        repos:
+          gardener-extension-otelcol: maintain
+          opentelemetry-collector: maintain
+      ops-toolbelt-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        - plkokanov
+        members:
+        - mimiteto
+        - grolu
+        privacy: closed
+        repos:
+          ops-toolbelt: admin
+      org-maintainers:
+        description: Maintainers of the org repository
+        maintainers:
+        - vlerenc
+        - rfranzke
+        - oliver-goetz
+        members:
+        - ScheererJ
+        - timuthy
+        - timebertt
+        privacy: closed
+        repos:
+          org: write
+      pvc-autoscaler-maintainers:
+        description: Gardener PVC Autoscaler Maintainers
+        maintainers:
+        - dnaeon
+        - nickytd
+        - plkokanov
+        members:
+        - Kostov6
+        - RadaBDimitrova
+        privacy: closed
+        repos:
+          pvc-autoscaler: admin
+      quic-reverse-http-tunnel-maintainers:
+        description: Maintainers of https://github.com/gardener/quic-reverse-http-tunnel
+        maintainers:
+        - plkokanov
+        members:
+        - rrhubenov
+        privacy: closed
+        repos:
+          quic-reverse-http-tunnel: admin
+      remedy-controller-maintainers:
+        description: Maintainers of the Gardener remedy-controller
+        maintainers:
+        - AndreasBurger
+        - kon-angelo
+        privacy: closed
+        repos:
+          remedy-controller: admin
+      rsyslog-relp-maintainers:
+        description: ""
+        maintainers:
+        - plkokanov
+        members:
+        - Kostov6
+        - RadaBDimitrova
+        privacy: closed
+        repos:
+          gardener-extension-shoot-rsyslog-relp: maintain
+      scaling-advisor-admins:
+        description: admins for scaling advisor repository
+        maintainers:
+        - unmarshall
+        members:
+        - elankath
+        - aaronfern
+        privacy: closed
+        repos:
+          scaling-advisor: admin
+      scaling-advisor-maintainers:
+        description: Maintainers for scaling advisor repository
+        maintainers:
+        - ashwani2k
+        - unmarshall
+        members:
+        - elankath
+        - gagan16k
+        - r4mek
+        - aaronfern
+        - thiyyakat
+        - takoverflow
+        privacy: closed
+        repos:
+          scaling-advisor: maintain
+      security-managers:
+        description: ""
+        maintainers:
+        - dimityrmirchev
+        members:
+        - vpnachev
+        - donistz
+        - HeckEK
+        privacy: closed
+      terminal-controller-manager-maintainers:
+        description: ""
+        maintainers:
+        - petersutter
+        members:
+        - grolu
+        - klocke-io
+        privacy: closed
+        repos:
+          terminal-controller-manager: admin
+      test-infra-maintainers:
+        description: Responsible for test-infra and the testmachinery
+        maintainers:
+        - dguendisch
+        - hendrikKahl
+        - IndritFejza
+        privacy: closed
+        repos:
+          gardener: read
+          k8s-conformance: admin
+          test-infra: admin
+      vertical-pod-autoscaler-maintainers:
+        description: Maintainers of Vertical Pod Autoscaler in Gardener.
+        maintainers:
+        - ialidzhikov
+        members:
+        - Kostov6
+        - vitanovs
+        - plkokanov
+        - RadaBDimitrova
+        privacy: closed
