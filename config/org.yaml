@@ -288,9 +288,6 @@ orgs:
           gardenlogin: admin
           ingress-default-backend: admin
           k8s-conformance: write
-          landscaper: write
-          landscaper-service: write
-          landscapercli: write
           logging: write
           machine-controller-manager: admin
           oidc-apps-controller: write
@@ -957,37 +954,6 @@ orgs:
         privacy: closed
         repos:
           gardener-extension-shoot-lakom-service: maintain
-      landscaper-maintainers:
-        description: ""
-        maintainers:
-        - Diaphteiros
-        - In-Ko
-        - guewa
-        - maximilianbraun
-        members:
-        - reshnm
-        - robertgraeff
-        - enrico-kaack-comp
-        privacy: closed
-        repos:
-          landscaper: maintain
-          landscaper-examples: maintain
-          landscaper-service: maintain
-          landscapercli: maintain
-        teams:
-          landscaper-admin:
-            description: ""
-            maintainers:
-            - Diaphteiros
-            - In-Ko
-            - guewa
-            - maximilianbraun
-            privacy: closed
-            repos:
-              landscaper: admin
-              landscaper-examples: admin
-              landscaper-service: admin
-              landscapercli: admin
       logging-maintainers:
         description: ""
         maintainers:
