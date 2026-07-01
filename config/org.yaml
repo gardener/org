@@ -69,6 +69,7 @@ orgs:
     - Gchbg
     - georgibaltiev
     - grolu
+    - julestree
     - guewa
     - hardikdr
     - hebelsan
@@ -242,6 +243,7 @@ orgs:
         maintainers:
         - petersutter
         - grolu
+        - julestree
         members:
         - AleksandarSavchev
         privacy: closed
@@ -379,7 +381,7 @@ orgs:
         - petersutter
         members:
         - grolu
-        - klocke-io
+        - julestree
         privacy: closed
         repos:
           dashboard: admin
@@ -495,7 +497,7 @@ orgs:
         - petersutter
         members:
         - grolu
-        - klocke-io
+        - julestree
         privacy: closed
         repos:
           gardenctl-v2: admin
@@ -885,7 +887,7 @@ orgs:
         - petersutter
         members:
         - grolu
-        - klocke-io
+        - julestree
         privacy: closed
         repos:
           gardenlogin: admin
@@ -894,6 +896,7 @@ orgs:
         maintainers:
         - petersutter
         - grolu
+        - julestree
         members:
         - AleksandarSavchev
         privacy: closed
@@ -1194,7 +1197,7 @@ orgs:
         - petersutter
         members:
         - grolu
-        - klocke-io
+        - julestree
         privacy: closed
         repos:
           terminal-controller-manager: admin
