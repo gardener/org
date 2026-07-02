@@ -277,7 +277,6 @@ orgs:
           gardener-extension-provider-alicloud: admin
           gardener-extension-provider-aws: admin
           gardener-extension-provider-azure: admin
-          gardener-extension-provider-equinix-metal: admin
           gardener-extension-provider-gcp: admin
           gardener-extension-provider-openstack: admin
           gardener-extension-registry-cache: admin
@@ -664,16 +663,6 @@ orgs:
           gardener-extension-provider-azure: admin
           machine-controller-manager-provider-azure: write
           terraformer: write
-      gardener-extension-provider-equinix-metal-maintainers:
-        description: Maintainers of repositories related to the EquinixMetal provider
-          extension.
-        maintainers:
-        - rfranzke
-        privacy: closed
-        repos:
-          gardener-extension-provider-equinix-metal: write
-          machine-controller-manager-provider-equinix-metal: write
-          terraformer: write
       gardener-extension-provider-gcp-maintainers:
         description: Maintainers of repositories related to the GCP provider extension.
         maintainers:
@@ -836,7 +825,6 @@ orgs:
           gardener-extension-provider-alicloud: write
           gardener-extension-provider-aws: write
           gardener-extension-provider-azure: write
-          gardener-extension-provider-equinix-metal: write
           gardener-extension-provider-gcp: write
           gardener-extension-provider-openstack: write
           gardener-extension-registry-cache: read
@@ -990,7 +978,6 @@ orgs:
           machine-controller-manager-provider-alicloud: write
           machine-controller-manager-provider-aws: admin
           machine-controller-manager-provider-azure: admin
-          machine-controller-manager-provider-equinix-metal: write
           machine-controller-manager-provider-gcp: admin
           machine-controller-manager-provider-openstack: write
           machine-controller-manager-provider-sampleprovider: admin
