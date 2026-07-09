@@ -1100,6 +1100,9 @@ orgs:
         maintainers:
         - AndreasBurger
         - kon-angelo
+        - hebelsan
+        - matthias-horne
+        - wpross
         privacy: closed
         repos:
           remedy-controller: admin
