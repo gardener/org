@@ -841,6 +841,17 @@ orgs:
           gardener-extension-shoot-dns-service: write
           gardener-extension-shoot-falco-service: write
           ingress-default-backend: write
+      gardener-triage:
+        description: Gardener triage – Members have write access to repositories to edit issues that belong to others as well (e.g. umbrella issues).
+        members:
+          - dimitar-kostadinov
+          - RadaBDimitrova
+          - timebertt
+          - vitanovs
+          - vmileva
+        privacy: closed
+        repos:
+          gardener: write
       gardener-metrics-exporter-maintainer:
         description: ""
         maintainers:
