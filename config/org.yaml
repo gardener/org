@@ -70,6 +70,7 @@ orgs:
     - Gchbg
     - georgibaltiev
     - grolu
+    - jan-meis
     - julestree
     - guewa
     - hardikdr
@@ -98,6 +99,7 @@ orgs:
     - Michael5601
     - mimiteto
     - mliepold
+    - moritzfalke
     - MrBatschner
     - n-boshnakov
     - neo-liang-sap
@@ -531,6 +533,8 @@ orgs:
         - AleksandarSavchev
         - RadaBDimitrova
         - Roncossek
+        - jan-meis
+        - moritzfalke
         privacy: closed
         repos:
           gardener: read
