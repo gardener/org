@@ -612,6 +612,9 @@ orgs:
         - ialidzhikov
         - MrBatschner
         - Roncossek
+        - dergeberl
+        - nschad
+        - robinschneider
         privacy: closed
         repos:
           gardener-extension-os-coreos: write
@@ -641,6 +644,9 @@ orgs:
         - Vincinator
         - MrBatschner
         - Roncossek
+        - dergeberl
+        - nschad
+        - robinschneider
         privacy: closed
         repos:
           gardener-extension-os-ubuntu: admin
