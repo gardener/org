@@ -1194,6 +1194,8 @@ orgs:
         - donistz
         - HeckEK
         privacy: closed
+        repos:
+          gardener-ghsa-tracker: read
       terminal-controller-manager-maintainers:
         description: ""
         maintainers:
