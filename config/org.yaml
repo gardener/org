@@ -810,6 +810,18 @@ orgs:
         privacy: closed
         repos:
           gardener-extension-shoot-networking-traffic-gauger: admin
+      gardener-extension-traefik-maintainers:
+        description: ""
+        maintainers:
+        - DockToFuture
+        - ScheererJ
+        members:
+        - domdom82
+        - axel7born
+        - anluerz
+        privacy: closed
+        repos:
+          gardener-extension-shoot-traefik: admin
       gardener-extensions-maintainers:
         description: Maintainers of extensions repositories
         maintainers:
@@ -897,18 +909,6 @@ orgs:
         privacy: closed
         repos:
           observability: admin
-      gardener/gardener-extension-traefik-maintainers:
-        description: ""
-        maintainers:
-        - DockToFuture
-        members:
-        - domdom82
-        - axel7born
-        - ScheererJ
-        - anluerz
-        privacy: closed
-        repos:
-          gardener-extension-shoot-traefik: admin
       gardenlogin-maintainers:
         description: ""
         maintainers:
