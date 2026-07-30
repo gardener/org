@@ -1193,6 +1193,7 @@ orgs:
         - vpnachev
         - donistz
         - HeckEK
+        - JordanJordanov
         privacy: closed
       terminal-controller-manager-maintainers:
         description: ""
