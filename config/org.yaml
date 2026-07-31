@@ -612,6 +612,7 @@ orgs:
         - ialidzhikov
         - MrBatschner
         - Roncossek
+        - MartinWeindel
         - dergeberl
         - nschad
         - robinschneider
@@ -626,6 +627,7 @@ orgs:
         - Vincinator
         - MrBatschner
         - Roncossek
+        - MartinWeindel
         privacy: closed
         repos:
           gardener-extension-os-gardenlinux: admin
@@ -635,6 +637,7 @@ orgs:
         - Vincinator
         - MrBatschner
         - Roncossek
+        - MartinWeindel
         privacy: closed
         repos:
           gardener-extension-os-suse-chost: admin
@@ -644,6 +647,7 @@ orgs:
         - Vincinator
         - MrBatschner
         - Roncossek
+        - MartinWeindel
         - dergeberl
         - nschad
         - robinschneider
@@ -735,6 +739,7 @@ orgs:
         - Vincinator
         - MrBatschner
         - Roncossek
+        - MartinWeindel
         privacy: closed
         repos:
           gardener-extension-runtime-gvisor: write
