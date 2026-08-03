@@ -419,6 +419,7 @@ orgs:
         repos:
           diki: maintain
           diki-operator: maintain
+          gardener-extension-diki: maintain
       documentation-maintainers:
         description: Gardener website and documentation maintainers
         maintainers:
