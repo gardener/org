@@ -1201,6 +1201,8 @@ orgs:
         - HeckEK
         - JordanJordanov
         privacy: closed
+        repos:
+          gardener-ghsa-tracker: read
       terminal-controller-manager-maintainers:
         description: ""
         maintainers:
