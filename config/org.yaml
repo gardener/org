@@ -578,6 +578,18 @@ orgs:
         privacy: closed
         repos:
           gardener-discovery-server: maintain
+      gardener-extension-envoy-gateway-maintainers:
+        description: Maintainers of https://github.com/gardener/gardener-extension-envoy-gateway
+        maintainers:
+        - DockToFuture
+        members:
+        - domdom82
+        - axel7born
+        - anluerz
+        - ScheererJ
+        privacy: closed
+        repos:
+          gardener-extension-envoy-gateway: write
       gardener-extension-networking-calico-maintainers:
         description: Maintainers of https://github.com/gardener/gardener-extension-networking-calico
         maintainers:
