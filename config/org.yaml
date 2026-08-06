@@ -582,6 +582,11 @@ orgs:
         description: ""
         maintainers:
         - DockToFuture
+        members:
+        - domdom82
+        - axel7born
+        - anluerz
+        - ScheererJ
         privacy: closed
         repos:
           gardener-extension-envoy-gateway: admin
