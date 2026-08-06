@@ -1,7 +1,7 @@
 name: Repository creation
 description: Create a repository into the Gardener Org
 labels: [ "kind/task" ]
-title: "REQUEST: Create <github repo>"
+title: "Repository creation request for <github repo>"
 body:
 - id: repo_name
   type: input
