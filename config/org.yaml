@@ -898,8 +898,10 @@ orgs:
         description: Gardener triage – Members have write access to repositories to edit issues that belong to others as well (e.g. umbrella issues).
         members:
           - dimitar-kostadinov
+          - DobromirNPeev
           - RadaBDimitrova
           - timebertt
+          - Velin-Todorov
           - vitanovs
           - vmileva
         privacy: closed
