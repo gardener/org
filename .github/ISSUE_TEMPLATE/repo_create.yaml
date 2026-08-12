@@ -26,7 +26,7 @@ body:
     label: Who should be listed as approvers in OWNERS/OWNERS_ALIASES?
     placeholder: e.g. alice, bob
   validations:
-    required: false
+    required: true
 - id: description
   type: textarea
   attributes:
