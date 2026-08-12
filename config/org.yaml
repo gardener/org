@@ -149,6 +149,7 @@ orgs:
     - Wieneo
     - wpross
     - xiaofenhappy
+    - xoxys
     members_can_create_repositories: false
     name: Gardener
     teams:
@@ -629,6 +630,7 @@ orgs:
         - dergeberl
         - nschad
         - robinschneider
+        - xoxys
         privacy: closed
         repos:
           gardener-extension-os-coreos: write
@@ -664,6 +666,7 @@ orgs:
         - dergeberl
         - nschad
         - robinschneider
+        - xoxys
         privacy: closed
         repos:
           gardener-extension-os-ubuntu: admin
