@@ -1,0 +1,51 @@
+name: Repository creation
+description: Create a repository into the Gardener Org
+labels: [ "kind/task" ]
+title: "Repository creation request for <github repo>"
+body:
+- id: repo_name
+  type: input
+  attributes:
+    label: Requested name for new repository
+    placeholder: e.g. gardener-foo
+  validations:
+    required: true
+- id: visibility
+  type: dropdown
+  attributes:
+    label: What should be the repo visibility?
+    multiple: false
+    options:
+    - "public"
+    - "private"
+  validations:
+    required: true
+- id: owners
+  type: input
+  attributes:
+    label: Who should be listed as approvers in OWNERS/OWNERS_ALIASES?
+    placeholder: e.g. alice, bob
+  validations:
+    required: true
+- id: description
+  type: textarea
+  attributes:
+    label: What should the repo description be?
+    placeholder: |
+      By default we will set it to "created due to (link to this issue)"
+  validations:
+    required: false
+- id: sponsors
+  type: textarea
+  attributes:
+    label: Please provide GitHub handle of repository sponsors
+    placeholder: e.g. @alice, @bob
+  validations:
+    required: true
+- id: context
+  type: textarea
+  attributes:
+    label: Additional context for request
+    placeholder: Any additional information or context to describe the request.
+  validations:
+    required: false
