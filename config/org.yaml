@@ -152,6 +152,812 @@ orgs:
     - xoxys
     members_can_create_repositories: false
     name: Gardener
+    repos:
+      .github:
+        default_branch: main
+        description: Parent repo for all gardener repos to store centrally managed files
+        has_projects: true
+      .repository-template:
+        default_branch: main
+        has_projects: true
+      alpine-conntrack:
+        collaborators:
+          ScheererJ: admin
+        description: Alpine image with pre-installed conntrack tools
+        has_projects: true
+      alpine-iptables:
+        collaborators:
+          DockToFuture: admin
+          ScheererJ: admin
+        description: Alpine image with pre-installed iptables rules
+        has_projects: true
+      apiserver-proxy:
+        description: SNI Passthrough proxy for kube-apiservers
+        has_projects: true
+      auditlog-forwarder:
+        collaborators:
+          dimityrmirchev: admin
+          gardener-ci-robot: admin
+        default_branch: main
+        description: A webhook server capable of enhancing Kubernetes audit events and
+          sending them to multiple backend systems
+        has_projects: true
+      autoscaler:
+        default_branch: machine-controller-manager-provider
+        description: Customised fork of cluster-autoscaler to support machine-controller-manager
+        has_projects: true
+      aws-custom-route-controller:
+        collaborators:
+          MartinWeindel: admin
+        default_branch: main
+        description: Custom route controller for AWS
+        has_projects: true
+      aws-ipam-controller:
+        description: AWS ipam controller for kubernetes
+        has_projects: true
+      azure-acr-credential-provider:
+        has_projects: true
+      cc-utils:
+        allow_merge_commit: false
+        description: CI/CD utils for gardener project
+        has_projects: true
+      cert-management:
+        collaborators:
+          gardener-ci-robot: admin
+        description: Manages TLS certificates in Kubernetes clusters using custom resources
+        has_projects: true
+      chaos-engineering:
+        default_branch: main
+        description: Chaos engineering tools for Gardener-managed clusters
+        has_projects: true
+      chocolatey-packages:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          gardener-ci-robot: admin
+        description: This repository contains chocolatey packages for tools from `github.com/gardener`.
+        has_projects: true
+      ci-infra:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          gardener-ci-robot: admin
+          timebertt: write
+        description: Test infrastructure for the Gardener project.
+        has_projects: true
+        homepage: https://prow.gardener.cloud
+      cluster-api-provider-gardener:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          LucaBernstein: admin
+        description: Cluster API provider for Gardener to manage shoot clusters and their
+          lifecycle via Cluster API.
+        has_projects: true
+        homepage: https://gardener.cloud/blog/2025/08/08-04-cluster-api-provider-gardener/
+      concourse:
+        archived: true
+        default_branch: main
+        description: build-description of concourse-ci for gardener-cicd
+        has_projects: true
+      controller-manager-library:
+        description: Library easing implementation of kubernetes controllers
+        has_projects: true
+      coredns-config-adapter:
+        default_branch: main
+        description: This project provides a dynamic adapter for custom CoreDNS configuration
+          files
+        has_projects: true
+      dashboard:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Web-based GUI for Gardener installations.
+        has_projects: true
+      dependency-watchdog:
+        collaborators:
+          amshuman-kr: admin
+        description: This controller checks the status of etcd and restarts control plane
+          components which are in a state of crashloop-backoff over an extensive period
+          of time.
+        has_projects: true
+      diki:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          dimityrmirchev: admin
+        default_branch: main
+        description: Diki is a compliance checker that aims to enhance the security posture
+          of your Kubernetes clusters.
+        has_projects: true
+      diki-operator:
+        collaborators:
+          dimityrmirchev: admin
+        default_branch: main
+        description: diki-operator automates the execution of compliance scans against
+          k8s clusters and manages the export of scan reports.
+        has_projects: true
+      docforge:
+        collaborators:
+          ialidzhikov: write
+        description: Scalable build tool for distributed documentation sources
+        has_projects: true
+      documentation:
+        collaborators:
+          VelmiraS: admin
+          gardener-answering-machine: maintain
+          timebertt: write
+        description: Documentation and website
+        has_projects: true
+      documentation-demo:
+        archived: true
+        collaborators:
+          klocke-io: admin
+        default_branch: main
+        description: Documentation demo (=preview) of new PRs
+        has_projects: true
+      ecr-credential-provider:
+        description: Repository for building images containing the AWS ECR-credential-provider
+          binary
+        has_projects: true
+      egress-filter-refresher:
+        description: Container for regularly updating the egress filter list.
+        has_projects: true
+      enhancements:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          ScheererJ: maintain
+          timebertt: maintain
+          vpnachev: maintain
+        default_branch: main
+        description: 'This repository hosts Gardener Enhancement Proposals (GEPs): design
+          and proposal documents for project-wide changes in Gardener that require discussion
+          and decisions in the Product Steering Committee (PSC) and/or Technical Steering
+          Committee (TSC).'
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud/community/steering/
+      etcd-backup-restore:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          amshuman-kr: read
+          ashwani2k: admin
+          shreyas-s-rao: admin
+        description: Collection of components to backup and restore the etcd of a Kubernetes
+          cluster.
+        has_projects: true
+        has_wiki: false
+      etcd-druid:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          amshuman-kr: read
+          ashwani2k: admin
+        description: An etcd operator to configure, provision, reconcile and monitor etcd
+          clusters.
+        has_projects: true
+        homepage: https://gardener.github.io/etcd-druid/
+      etcd-steward:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          seshachalam-yv: maintain
+          shreyas-s-rao: admin
+        description: A steward for etcd
+        has_projects: true
+      etcd-wrapper:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        default_branch: main
+        description: 'Configures and starts an embedded ETCD '
+        has_projects: true
+      ext-authz-server:
+        collaborators:
+          ScheererJ: admin
+        default_branch: main
+        description: External authorization server for envoy-proxy
+        has_projects: true
+      external-dns-management:
+        collaborators:
+          gardener-ci-robot: admin
+        description: Environment to manage external DNS entries for a kubernetes cluster
+        has_projects: true
+      falco-event-db-schema:
+        description: Schema maintenance for Falco event database
+        has_projects: true
+      falco-event-ingestor:
+        default_branch: main
+        description: Receive, validate, and store events from Falco deployed by Gardener.
+        has_projects: true
+      falco-event-provider:
+        default_branch: main
+        has_projects: true
+      falcosidekick:
+        description: Connect Falco to your ecosystem
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+      garden-shoot-trust-configurator:
+        collaborators:
+          dimityrmirchev: admin
+          gardener-ci-robot: admin
+        default_branch: main
+        description: Enable shoot clusters with Managed Service Account Issuer to be registered
+          as trusted clusters in the Garden cluster.
+        has_projects: true
+      gardenctl-v2:
+        allow_rebase_merge: false
+        description: Command-line client for the Gardener with focus on operations
+        has_projects: true
+      gardener:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Homogeneous Kubernetes clusters at scale on any infrastructure using
+          hosted control planes.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-ai-conformance:
+        collaborators:
+          SujanaSubr: read
+          afritzler: read
+          dhague: read
+          mTarabyte: read
+          n-boshnakov: read
+          nickytd: admin
+          pnpavlov: read
+          shreyas-s-rao: read
+          unmarshall: admin
+          vasu1124: read
+          vpnachev: read
+        default_branch: main
+        description: Guides and Evidence for Gardener's AI Conformance
+        has_projects: true
+      gardener-discovery-server:
+        collaborators:
+          dimityrmirchev: admin
+          vpnachev: admin
+        default_branch: main
+        description: A server capable of serving public metadata regarding Gardener resources
+          like the shoot OIDC discovery documents
+        has_projects: true
+      gardener-extension-auditing:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          gardener-ci-robot: admin
+        default_branch: main
+        has_projects: true
+      gardener-extension-diki:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        default_branch: main
+        has_projects: true
+      gardener-extension-envoy-gateway:
+        collaborators:
+          DockToFuture: admin
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+      gardener-extension-image-rewriter:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: This project provides a Gardener extension that replaces pod image
+          references for system components of shoot clusters.
+        has_projects: false
+        has_wiki: false
+      gardener-extension-networking-calico:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: read
+        description: Gardener extension controller for the Calico CNI network plugin.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-networking-cilium:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: write
+        description: Gardener extension controller for the Cilium CNI network plugin.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-os-coreos:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          dergeberl: maintain
+          nschad: maintain
+          robinschneider: maintain
+          timebertt: maintain
+        description: Gardener extension controller for the CoreOS/Flatcar Container Linux
+          operating system.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-os-gardenlinux:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: write
+        description: Gardener extension controller for the Garden Linux operating system
+        has_projects: false
+        has_wiki: false
+      gardener-extension-os-suse-chost:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: write
+        description: Gardener extension controller for the SUSE Container Host operating
+          system (CHost).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-os-ubuntu:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          dergeberl: admin
+          nschad: admin
+          robinschneider: admin
+          timebertt: write
+        description: Gardener extension controller for the Ubuntu operating system.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-otelcol:
+        collaborators:
+          dnaeon: admin
+        default_branch: main
+        description: Gardener Extension for OpenTelemetry Collector in shoot clusters
+        has_projects: true
+      gardener-extension-provider-alicloud:
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: write
+        description: Gardener extension controller for the Alibaba cloud provider (https://alibabacloud.com).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-provider-aws:
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: write
+        description: Gardener extension controller for the AWS cloud provider (https://aws.amazon.com).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-provider-azure:
+        allow_rebase_merge: false
+        collaborators:
+          timebertt: write
+        description: Gardener extension controller for the Azure cloud provider (https://azure.microsoft.com).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-provider-gcp:
+        collaborators:
+          DockToFuture: maintain
+        description: Gardener extension controller for the GCP cloud provider (https://cloud.google.com).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-provider-openstack:
+        collaborators:
+          timebertt: write
+        description: Gardener extension controller for the OpenStack cloud provider (https://openstack.org).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-registry-cache:
+        allow_rebase_merge: false
+        collaborators:
+          ialidzhikov: admin
+        default_branch: main
+        description: Gardener extension controller which deploys pull-through caches for
+          container registries.
+        has_projects: false
+        has_wiki: false
+      gardener-extension-runtime-gvisor:
+        collaborators:
+          timebertt: read
+        description: Gardener extension controller for the gVisor container runtime sandbox
+          (https://gvisor.dev).
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-shoot-agent-sandbox:
+        collaborators:
+          Roncossek: write
+          Vincinator: write
+          dnaeon: read
+          kon-angelo: write
+        description: 'Description: Gardener extension controller for agent sandbox (https://github.com/kubernetes-sigs/agent-sandbox)
+          runtime.'
+        has_projects: true
+      gardener-extension-shoot-cert-service:
+        allow_rebase_merge: false
+        collaborators:
+          timebertt: write
+        description: Gardener extension controller for certificate services for shoot
+          clusters.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-shoot-dns-service:
+        collaborators:
+          timebertt: write
+        description: Gardener extension controller for DNS services for shoot clusters.
+        has_projects: false
+        has_wiki: false
+        homepage: https://gardener.cloud
+      gardener-extension-shoot-falco-service:
+        collaborators:
+          gardener-ci-robot: admin
+        default_branch: main
+        description: Gardener extension controller to deploy Falco into shoot clusters.
+        has_projects: true
+      gardener-extension-shoot-lakom-service:
+        collaborators:
+          vpnachev: admin
+        default_branch: main
+        description: A k8s admission controller verifying pods are using signed images
+          (cosign signatures) and a gardener extension to install it for shoots and seeds.
+        has_projects: true
+      gardener-extension-shoot-networking-filter:
+        description: Gardener extension controller for networking policy filter.
+        has_projects: true
+      gardener-extension-shoot-networking-problemdetector:
+        collaborators:
+          MartinWeindel: admin
+          ScheererJ: admin
+        default_branch: main
+        description: Gardener extension for deploying network problem detector
+        has_projects: true
+      gardener-extension-shoot-networking-traffic-gauger:
+        collaborators:
+          RadaBDimitrova: maintain
+          ScheererJ: admin
+          ialidzhikov: maintain
+        default_branch: main
+        description: Gardener extension for deploying network traffic gauger
+        has_projects: true
+      gardener-extension-shoot-oidc-service:
+        collaborators:
+          dimityrmirchev: admin
+          vpnachev: admin
+        description: 'Gardener extension controller for OpenID Connect services for shoot
+          clusters. '
+        has_projects: true
+      gardener-extension-shoot-rsyslog-relp:
+        collaborators:
+          Kostov6: maintain
+          RadaBDimitrova: maintain
+          ialidzhikov: maintain
+          plkokanov: admin
+        default_branch: main
+        has_projects: true
+      gardener-extension-shoot-traefik:
+        collaborators:
+          DockToFuture: admin
+        default_branch: main
+        description: Gardener extension controller for traefik ingress. (https://github.com/traefik/traefik)
+        has_projects: true
+      gardener-ghsa-tracker:
+        collaborators:
+          vpnachev: admin
+        default_branch: main
+        description: Tracker for Github Security Advisories in the github.com/gardener
+          org
+        has_projects: true
+        private: true
+      gardener-landscape-kit:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          LucaBernstein: admin
+          MartinWeindel: admin
+          gardener-ci-robot: admin
+          oliver-goetz: admin
+          timuthy: admin
+        default_branch: main
+        description: Source repository of the famous gardener-landscape-kit.
+        has_projects: true
+      gardener-metrics-exporter:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A Prometheus exporter for Gardener service-level metrics.
+        has_projects: true
+      gardenlogin:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: kubectl credential plugin for shoot cluster admin authentication
+        has_projects: true
+      github-oidc-federation:
+        default_branch: main
+        description: Service with the capability to exchange an OIDC identity token for
+          a short-lived GitHub access token
+        has_projects: true
+      hackathon:
+        collaborators:
+          AleksandarSavchev: triage
+          BoHristova: triage
+          Bobi-Wan: triage
+          JordanJordanov: admin
+          Kostov6: triage
+          LucaBernstein: triage
+          MartinWeindel: triage
+          RadaBDimitrova: triage
+          ScheererJ: triage
+          dimitar-kostadinov: triage
+          dimityrmirchev: admin
+          dkistner: admin
+          dnaeon: triage
+          donistz: triage
+          georgibaltiev: triage
+          ialidzhikov: triage
+          marc1404: admin
+          mimiteto: triage
+          n-boshnakov: triage
+          nickytd: admin
+          oliver-goetz: admin
+          plkokanov: triage
+          rfranzke: admin
+          rrhubenov: admin
+          theoddora: triage
+          timebertt: triage
+          timuthy: triage
+          tobschli: admin
+          vitanovs: triage
+          vpnachev: triage
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+        homepage: https://gardener.cloud/community/hackathons/
+      homebrew-tap:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          gardener-ci-robot: admin
+        description: Provides Gardener tools via Homebrew package
+        has_projects: true
+      hyperkube:
+        collaborators:
+          gardener-ci-robot: admin
+        has_projects: false
+        has_wiki: false
+      ingress-default-backend:
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+          timebertt: write
+        description: Default ingress backend for Shoot clusters.
+        has_projects: false
+        has_wiki: false
+      ingress-gce:
+        description: Build container images for https://github.com/kubernetes/ingress-gce
+        has_projects: true
+      inventory:
+        allow_merge_commit: false
+        collaborators:
+          etiennnr: read
+        default_branch: main
+        description: Gardener Inventory Repo
+        has_projects: true
+      inventory-extension-odg:
+        allow_merge_commit: false
+        default_branch: main
+        description: Inventory extension for Open Delivery Gear
+        has_projects: true
+      k8s-conformance:
+        collaborators:
+          gardener-tm: write
+        description: "\U0001F9EACNCF K8s Conformance Working Group"
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+        homepage: https://cncf.io/ck
+      kube-rbac-proxy-watcher:
+        allow_merge_commit: false
+        collaborators:
+          nickytd: admin
+        default_branch: main
+        description: A configuration watcher managing the lifecycle of a child process
+          upon changes on the watched resources.
+        has_projects: true
+      kupid:
+        collaborators:
+          amshuman-kr: admin
+        description: Inject scheduling criteria into target pods orthogonally by policy
+          definition.
+        has_projects: true
+      logging:
+        allow_merge_commit: false
+        collaborators:
+          dnaeon: maintain
+          nickytd: admin
+        description: Components needed for Gardener logging
+        has_projects: true
+      machine-controller-manager:
+        description: Declarative way of managing machines for Kubernetes cluster
+        has_projects: true
+      machine-controller-manager-provider-alicloud:
+        collaborators:
+          AxiomSamarth: write
+          amshuman-kr: write
+          ialidzhikov: write
+        description: Gardener machine controller manager provider for Alicloud
+        has_projects: true
+      machine-controller-manager-provider-aws:
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+        description: Gardener machine controller manager provider for AWS
+        has_projects: true
+      machine-controller-manager-provider-azure:
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+        description: This repository is the out of tree implementation of the machine
+          driver for Azure cloud provider
+        has_projects: true
+      machine-controller-manager-provider-gcp:
+        collaborators:
+          AxiomSamarth: read
+          amshuman-kr: read
+        description: Gardener machine controller manager provider for GCP
+        has_projects: true
+      machine-controller-manager-provider-openstack:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          AxiomSamarth: write
+          amshuman-kr: write
+          ialidzhikov: write
+        description: Out of tree implementation for machine-controller-manager's provider-openstack
+        has_projects: true
+      machine-controller-manager-provider-sampleprovider:
+        collaborators:
+          AxiomSamarth: admin
+          amshuman-kr: admin
+        description: Out of tree implementation for SampleProvider as a new cloud provider
+        has_projects: true
+      multicluster-provider:
+        description: A Gardener provider for multicluster-runtime
+        has_projects: true
+        has_wiki: false
+      network-problem-detector:
+        collaborators:
+          FHeine: admin
+          MartinWeindel: admin
+          ScheererJ: admin
+        default_branch: main
+        description: Network problem detector agent and cli
+        has_projects: true
+      network-traffic-gauger:
+        collaborators:
+          ScheererJ: admin
+        default_branch: main
+        description: The Network Traffic Gauger determines the network traffic and aggregates
+          the amount of sent/received data to the corresponding source/destination IP
+          pair.
+        has_projects: true
+      observability:
+        description: Components needed for Gardener observability
+        has_projects: true
+      oidc-apps-controller:
+        allow_merge_commit: false
+        collaborators:
+          Bobi-Wan: admin
+          nickytd: admin
+        default_branch: main
+        description: A kubernetes controller enabling OIDC authentication and RBAC authorisation
+          proxies to target workloads.
+        has_projects: true
+      oidc-webhook-authenticator:
+        collaborators:
+          dimityrmirchev: admin
+        description: Kubernetes Webhook Authenticator that allows for dynamic registration
+          of OpenID Connect providers
+        has_projects: true
+      opentelemetry-collector:
+        collaborators:
+          dnaeon: admin
+          nickytd: admin
+          rrhubenov: admin
+        default_branch: main
+        description: Gardener opentelemetry collector distribution
+        has_projects: true
+      ops-toolbelt:
+        collaborators:
+          gardener-ci-robot: admin
+        description: Useful tools and operations guide for gardener landscapes
+        has_projects: true
+      org:
+        collaborators:
+          LucaBernstein: read
+          gardener-ci-robot: admin
+          timuthy: maintain
+        default_branch: main
+        description: Meta configuration for Gardener GitHub Org
+        has_projects: true
+      pvc-autoscaler:
+        collaborators:
+          gardener-ci-robot: admin
+        description: Kubernetes PVC autoscaler
+        has_projects: true
+      quic-reverse-http-tunnel:
+        collaborators:
+          plkokanov: maintain
+        default_branch: main
+        description: A reverse HTTP Tunnel using QUIC protocol
+        has_projects: true
+      remedy-controller:
+        allow_merge_commit: false
+        allow_squash_merge: false
+        description: Remedy controller for automatic application of remedies for platform
+          issues
+        has_projects: true
+      repo-tools:
+        collaborators:
+          RadaBDimitrova: maintain
+          dimitar-kostadinov: maintain
+          marc1404: admin
+        default_branch: main
+        has_projects: true
+      scaling-advisor:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        collaborators:
+          FHeine: admin
+          vasu1124: read
+        default_branch: main
+        description: Advisory controller that generates scaling advice for a kuberntes
+          cluster
+        has_projects: true
+      service-account-issuer-discovery:
+        description: A simple server that exposes the OpenID discovery documents of a
+          Kubernetes cluster.
+        has_projects: true
+      terminal-controller-manager:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: 'Used for the webterminal feature of the gardener/dashboard '
+        has_projects: true
+      terraformer:
+        allow_rebase_merge: false
+        description: Executes Terraform configuration as job/pod inside a Kubernetes cluster.
+        has_projects: false
+        has_wiki: false
+      test-infra:
+        collaborators:
+          gardener-ci-robot: admin
+        description: Test machinery for orchestration of integration/e2e/smoke style tests
+        has_projects: true
+      vpn2:
+        collaborators:
+          DockToFuture: admin
+          MartinWeindel: admin
+          ScheererJ: admin
+          anluerz: admin
+          axel7born: admin
+          domdom82: admin
+          marwinski: admin
+        description: Network connector between the control plane (deployed in a Seed cluster)
+          and a Shoot cluster superseding the vpn repository.
+        has_projects: true
     teams:
       alpine-conntrack-maintainers:
         description: Maintainers of https://github.com/gardener/alpine-conntrack
