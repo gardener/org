@@ -66,7 +66,6 @@ orgs:
     - finally-fancy
     - gagan16k
     - gardener-answering-machine
-    - gardener-demo-flux
     - Gchbg
     - georgibaltiev
     - grolu
@@ -1076,7 +1075,6 @@ orgs:
         privacy: closed
         repos:
           autoscaler: admin
-          cicd-test: admin
           cluster-api-provider-gardener: admin
           dashboard: admin
           dependency-watchdog: admin
