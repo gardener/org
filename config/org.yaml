@@ -1665,17 +1665,17 @@ orgs:
         description: Gardener maintainers
         maintainers:
         - marc1404
-        - rfranzke
         - oliver-goetz
+        - rfranzke
         members:
+        - acumino
+        - ary1992
         - ialidzhikov
         - Kostov6
         - LucaBernstein
-        - ary1992
-        - acumino
+        - plkokanov
         - ScheererJ
         - shafeeqes
-        - plkokanov
         - timuthy
         - tobschli
         privacy: closed
