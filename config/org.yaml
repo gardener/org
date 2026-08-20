@@ -1775,9 +1775,6 @@ orgs:
         description: GDC maintainers
         members:
         - AndreasBurger
-        - dilipkumar2k6
-        - fuzzdota
-        - HophinKibona
         privacy: closed
         repos:
           gardener-extension-provider-gdc: maintain
