@@ -546,6 +546,18 @@ orgs:
         has_projects: false
         has_wiki: false
         homepage: https://gardener.cloud
+      gardener-extension-provider-gdc:
+        allow_rebase_merge: false
+        collaborators:
+          AndreasBurger: admin
+          dilipkumar2k6: maintain
+          fuzzdota: maintain
+          HophinKibona: maintain
+        default_branch: main
+        description: Gardener Extension Provider implementation for Google Distributed Cloud (GDC) air-gapped.
+        has_projects: false
+        has_wiki: false
+        homepage: https://cloud.google.com/distributed-cloud-air-gapped
       gardener-extension-provider-gcp:
         collaborators:
           DockToFuture: maintain
@@ -818,6 +830,16 @@ orgs:
           amshuman-kr: read
         description: Gardener machine controller manager provider for GCP
         has_projects: true
+      machine-controller-manager-provider-gdc:
+        collaborators:
+          AndreasBurger: admin
+          dilipkumar2k6: maintain
+          fuzzdota: maintain
+          HophinKibona: maintain
+        default_branch: main
+        description: Gardener machine controller manager provider for GDC
+        has_projects: true
+        homepage: https://cloud.google.com/distributed-cloud-air-gapped
       machine-controller-manager-provider-openstack:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -1096,6 +1118,7 @@ orgs:
           gardener-extension-provider-aws: admin
           gardener-extension-provider-azure: admin
           gardener-extension-provider-gcp: admin
+          gardener-extension-provider-gdc: admin
           gardener-extension-provider-openstack: admin
           gardener-extension-registry-cache: admin
           gardener-extension-runtime-gvisor: admin
@@ -1695,6 +1718,7 @@ orgs:
           gardener-extension-provider-aws: write
           gardener-extension-provider-azure: write
           gardener-extension-provider-gcp: write
+          gardener-extension-provider-gdc: write
           gardener-extension-provider-openstack: write
           gardener-extension-registry-cache: read
           gardener-extension-runtime-gvisor: write
@@ -1747,6 +1771,17 @@ orgs:
         privacy: closed
         repos:
           gardenlogin: admin
+      gdc-maintainers:
+        description: GDC maintainers
+        members:
+        - AndreasBurger
+        - dilipkumar2k6
+        - fuzzdota
+        - HophinKibona
+        privacy: closed
+        repos:
+          gardener-extension-provider-gdc: maintain
+          machine-controller-manager-provider-gdc: maintain
       homebrew-tap-maintainers:
         description: ""
         maintainers:
@@ -1852,6 +1887,7 @@ orgs:
           machine-controller-manager-provider-aws: admin
           machine-controller-manager-provider-azure: admin
           machine-controller-manager-provider-gcp: admin
+          machine-controller-manager-provider-gdc: admin
           machine-controller-manager-provider-openstack: write
           machine-controller-manager-provider-sampleprovider: admin
       monitoring-maintainers:
