@@ -9,6 +9,7 @@ orgs:
     location: Germany
     admins:
     - gardener-ci-robot
+    - gardener-renovate
     - 8R0WNI3
     - AndreasBurger
     - ashwani2k
@@ -29,7 +30,6 @@ orgs:
     - petersutter
     - RaphaelVogel
     - rfranzke
-    - SAP-OSPO-ADMIN
     - unmarshall
     - vlerenc
     - zkdev
@@ -177,6 +177,7 @@ orgs:
         collaborators:
           dimityrmirchev: admin
           gardener-ci-robot: admin
+          gardener-renovate: admin
         default_branch: main
         description: A webhook server capable of enhancing Kubernetes audit events and
           sending them to multiple backend systems
@@ -203,6 +204,7 @@ orgs:
       cert-management:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: Manages TLS certificates in Kubernetes clusters using custom resources
         has_projects: true
       chaos-engineering:
@@ -214,6 +216,7 @@ orgs:
         allow_rebase_merge: false
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: This repository contains chocolatey packages for tools from `github.com/gardener`.
         has_projects: true
       ci-infra:
@@ -221,6 +224,7 @@ orgs:
         allow_rebase_merge: false
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
           timebertt: write
         description: Test infrastructure for the Gardener project.
         has_projects: true
@@ -360,6 +364,7 @@ orgs:
       external-dns-management:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: Environment to manage external DNS entries for a kubernetes cluster
         has_projects: true
       falco-event-db-schema:
@@ -381,6 +386,7 @@ orgs:
         collaborators:
           dimityrmirchev: admin
           gardener-ci-robot: admin
+          gardener-renovate: admin
         default_branch: main
         description: Enable shoot clusters with Managed Service Account Issuer to be registered
           as trusted clusters in the Garden cluster.
@@ -426,6 +432,7 @@ orgs:
         allow_rebase_merge: false
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         default_branch: main
         has_projects: true
       gardener-extension-diki:
@@ -617,6 +624,7 @@ orgs:
       gardener-extension-shoot-falco-service:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         default_branch: main
         description: Gardener extension controller to deploy Falco into shoot clusters.
         has_projects: true
@@ -681,6 +689,7 @@ orgs:
           LucaBernstein: admin
           MartinWeindel: admin
           gardener-ci-robot: admin
+          gardener-renovate: admin
           oliver-goetz: admin
           timuthy: admin
         default_branch: main
@@ -742,11 +751,13 @@ orgs:
         allow_rebase_merge: false
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: Provides Gardener tools via Homebrew package
         has_projects: true
       hyperkube:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         has_projects: false
         has_wiki: false
       ingress-default-backend:
@@ -904,12 +915,14 @@ orgs:
       ops-toolbelt:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: Useful tools and operations guide for gardener landscapes
         has_projects: true
       org:
         collaborators:
           LucaBernstein: read
           gardener-ci-robot: admin
+          gardener-renovate: admin
           timuthy: maintain
         default_branch: main
         description: Meta configuration for Gardener GitHub Org
@@ -917,6 +930,7 @@ orgs:
       pvc-autoscaler:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: Kubernetes PVC autoscaler
         has_projects: true
       quic-reverse-http-tunnel:
@@ -965,6 +979,7 @@ orgs:
       test-infra:
         collaborators:
           gardener-ci-robot: admin
+          gardener-renovate: admin
         description: Test machinery for orchestration of integration/e2e/smoke style tests
         has_projects: true
       vpn2:
@@ -1094,6 +1109,7 @@ orgs:
         description: Used for setting webhooks (admin rights required on repos)
         members:
         - gardener-ci-robot
+        - gardener-renovate
         privacy: closed
         repos:
           autoscaler: admin
