@@ -669,6 +669,7 @@ orgs:
       gardener-ghsa-tracker:
         collaborators:
           vpnachev: admin
+          gardener-ci-robot: write
         default_branch: main
         description: Tracker for Github Security Advisories in the github.com/gardener
           org
