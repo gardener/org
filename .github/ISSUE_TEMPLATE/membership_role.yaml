@@ -1,4 +1,4 @@
-# Modifications Copyright SAP SE or an SAP affiliate company and Gardener contributors.
+# Modifications Contributors to the Gardener project.
 name: Membership Role Request
 description: Request a membership status in the project
 labels: ["kind/task"]
