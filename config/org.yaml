@@ -550,9 +550,9 @@ orgs:
         allow_rebase_merge: false
         collaborators:
           AndreasBurger: admin
-          dilipkumar2k6: maintain
-          fuzzdota: maintain
-          HophinKibona: maintain
+          dilipkumar2k6: admin
+          fuzzdota: admin
+          HophinKibona: admin
         default_branch: main
         description: Gardener Extension Provider implementation for Google Distributed Cloud (GDC) air-gapped.
         has_projects: false
@@ -833,9 +833,9 @@ orgs:
       machine-controller-manager-provider-gdc:
         collaborators:
           AndreasBurger: admin
-          dilipkumar2k6: maintain
-          fuzzdota: maintain
-          HophinKibona: maintain
+          dilipkumar2k6: admin
+          fuzzdota: admin
+          HophinKibona: admin
         default_branch: main
         description: Gardener machine controller manager provider for GDC
         has_projects: true
