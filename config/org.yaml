@@ -49,6 +49,7 @@ orgs:
     - BoHristova
     - CaptainIRS
     - chrisbal-b
+    - chrisstiefel
     - chrkl
     - DelinaDeng
     - dergeberl
@@ -1087,6 +1088,7 @@ orgs:
         - julestree
         members:
         - AleksandarSavchev
+        - chrisstiefel
         privacy: closed
         repos:
           chocolatey-packages: admin
@@ -1218,6 +1220,7 @@ orgs:
         maintainers:
         - petersutter
         members:
+        - chrisstiefel
         - grolu
         - julestree
         privacy: closed
@@ -1338,6 +1341,7 @@ orgs:
         maintainers:
         - petersutter
         members:
+        - chrisstiefel
         - grolu
         - julestree
         privacy: closed
@@ -1766,6 +1770,7 @@ orgs:
         maintainers:
         - petersutter
         members:
+        - chrisstiefel
         - grolu
         - julestree
         privacy: closed
@@ -1787,6 +1792,7 @@ orgs:
         - julestree
         members:
         - AleksandarSavchev
+        - chrisstiefel
         privacy: closed
         repos:
           homebrew-tap: admin
@@ -2063,6 +2069,7 @@ orgs:
         maintainers:
         - petersutter
         members:
+        - chrisstiefel
         - grolu
         - julestree
         privacy: closed
