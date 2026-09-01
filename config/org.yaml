@@ -235,11 +235,6 @@ orgs:
           lifecycle via Cluster API.
         has_projects: true
         homepage: https://gardener.cloud/blog/2025/08/08-04-cluster-api-provider-gardener/
-      concourse:
-        archived: true
-        default_branch: main
-        description: build-description of concourse-ci for gardener-cicd
-        has_projects: true
       controller-manager-library:
         description: Library easing implementation of kubernetes controllers
         has_projects: true
@@ -1183,7 +1178,6 @@ orgs:
         privacy: closed
         repos:
           cc-utils: admin
-          concourse: maintain
           github-oidc-federation: admin
       cnudie-transport-tool-maintainers:
         description: ""
