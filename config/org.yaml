@@ -235,11 +235,6 @@ orgs:
           lifecycle via Cluster API.
         has_projects: true
         homepage: https://gardener.cloud/blog/2025/08/08-04-cluster-api-provider-gardener/
-      concourse:
-        archived: true
-        default_branch: main
-        description: build-description of concourse-ci for gardener-cicd
-        has_projects: true
       controller-manager-library:
         description: Library easing implementation of kubernetes controllers
         has_projects: true
@@ -958,11 +953,6 @@ orgs:
         allow_rebase_merge: false
         description: 'Used for the webterminal feature of the gardener/dashboard '
         has_projects: true
-      terraformer:
-        allow_rebase_merge: false
-        description: Executes Terraform configuration as job/pod inside a Kubernetes cluster.
-        has_projects: false
-        has_wiki: false
       test-infra:
         collaborators:
           gardener-ci-robot: admin
@@ -1137,7 +1127,6 @@ orgs:
           oidc-apps-controller: write
           service-account-issuer-discovery: admin
           terminal-controller-manager: admin
-          terraformer: admin
       ci-infra-collaborators:
         description: People working on Gardener prow
         maintainers:
@@ -1183,7 +1172,6 @@ orgs:
         privacy: closed
         repos:
           cc-utils: admin
-          concourse: maintain
           github-oidc-federation: admin
       cnudie-transport-tool-maintainers:
         description: ""
@@ -1510,7 +1498,6 @@ orgs:
         repos:
           gardener-extension-provider-alicloud: write
           machine-controller-manager-provider-alicloud: write
-          terraformer: write
       gardener-extension-provider-aws-maintainers:
         description: Maintainers of repositories related to the AWS provider extension.
         maintainers:
@@ -1526,7 +1513,6 @@ orgs:
           ecr-credential-provider: maintain
           gardener-extension-provider-aws: admin
           machine-controller-manager-provider-aws: write
-          terraformer: write
       gardener-extension-provider-azure-maintainers:
         description: Maintainers of repositories related to the Azure provider extension.
         maintainers:
@@ -1541,7 +1527,6 @@ orgs:
           azure-acr-credential-provider: admin
           gardener-extension-provider-azure: admin
           machine-controller-manager-provider-azure: write
-          terraformer: write
       gardener-extension-provider-gcp-maintainers:
         description: Maintainers of repositories related to the GCP provider extension.
         maintainers:
@@ -1555,7 +1540,6 @@ orgs:
         repos:
           gardener-extension-provider-gcp: admin
           machine-controller-manager-provider-gcp: admin
-          terraformer: write
       gardener-extension-provider-openstack-maintainers:
         description: Maintainers of repositories related to the OpenStack provider extension.
         maintainers:
@@ -1569,7 +1553,6 @@ orgs:
         repos:
           gardener-extension-provider-openstack: admin
           machine-controller-manager-provider-openstack: admin
-          terraformer: write
       gardener-extension-registry-cache-maintainers:
         description: maintainers of https://github.com/gardener/gardener-extension-registry-cache
         members:
@@ -1684,8 +1667,6 @@ orgs:
         - hebelsan
         - matthias-horne
         privacy: closed
-        repos:
-          terraformer: maintain
       gardener-maintainers:
         description: Gardener maintainers
         maintainers:
