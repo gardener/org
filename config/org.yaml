@@ -667,7 +667,7 @@ orgs:
         default_branch: main
         description: Gardener extension controller for traefik ingress. (https://github.com/traefik/traefik)
         has_projects: true
-      gardener-ghsa-tracker:
+      gardener-security-advisories-tracker:
         collaborators:
           vpnachev: admin
         default_branch: main
@@ -2063,7 +2063,7 @@ orgs:
         - JordanJordanov
         privacy: closed
         repos:
-          gardener-ghsa-tracker: read
+          gardener-security-advisories-tracker: read
       terminal-controller-manager-maintainers:
         description: ""
         maintainers:
