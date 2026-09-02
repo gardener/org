@@ -283,13 +283,6 @@ orgs:
           timebertt: write
         description: Documentation and website
         has_projects: true
-      documentation-demo:
-        archived: true
-        collaborators:
-          klocke-io: admin
-        default_branch: main
-        description: Documentation demo (=preview) of new PRs
-        has_projects: true
       ecr-credential-provider:
         description: Repository for building images containing the AWS ECR-credential-provider
           binary
@@ -1257,7 +1250,6 @@ orgs:
         repos:
           docforge: maintain
           documentation: admin
-          documentation-demo: admin
       egress-filter-refresher-maintainers:
         description: Maintainers of https://github.com/gardener/egress-filter-refresher
         maintainers:
