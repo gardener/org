@@ -1,8 +1,8 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 reviewers:
+- gardener-org-repo-admins
 - gardener-technical-steering
-- gardener-org-admins
 approvers:
+- gardener-org-repo-admins
 - gardener-technical-steering
-- gardener-org-admins
