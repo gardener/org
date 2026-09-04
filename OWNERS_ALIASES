@@ -1,11 +1,35 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 aliases:
+  gardener-org-repo-admins:
+  - oliver-goetz
+  - timuthy
+  gardener-org-admins:
+  - 8R0WNI3
+  - AndreasBurger
+  - ashwani2k
+  - ccwienk
+  - dguendisch
+  - dimityrmirchev
+  - dkistner
+  - FHeine
+  - hendrikKahl
+  - JordanJordanov
+  - juergenschneider
+  - marc1404
+  - marwinski
+  - nickytd
+  - NiclasMoldenhauer
+  - oliver-goetz
+  - OrlinVasilev
+  - petersutter
+  - RaphaelVogel
+  - rfranzke
+  - unmarshall
+  - vlerenc
+  - zkdev
   gardener-technical-steering:
   - rfranzke
   - ScheererJ
   - timebertt
   - vpnachev
-  gardener-org-admins:
-  - oliver-goetz
-  - timuthy
