@@ -1250,6 +1250,13 @@ orgs:
         repos:
           docforge: maintain
           documentation: admin
+      documentation-approvers:
+        description: Approvers role for the Gardener documentation and its aggreagte sources, see -> https://gardener.cloud/contribute/contribution-process/documentation-roles/#documentation-approver
+        members:
+        - BoHristova
+        - VelmiraS
+        - klocke-io
+        privacy: closed
       egress-filter-refresher-maintainers:
         description: Maintainers of https://github.com/gardener/egress-filter-refresher
         maintainers:
