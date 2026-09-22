@@ -867,6 +867,14 @@ orgs:
       observability:
         description: Components needed for Gardener observability
         has_projects: true
+      thymian:
+        allow_merge_commit: false
+        collaborators:
+          vicwicker: admin
+          nickytd: admin
+        default_branch: main
+        description: Global querying across independent Prometheus instances.
+        has_projects: true
       oidc-apps-controller:
         allow_merge_commit: false
         collaborators:
