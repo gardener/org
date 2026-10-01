@@ -867,7 +867,7 @@ orgs:
       observability:
         description: Components needed for Gardener observability
         has_projects: true
-      thymian:
+      promql-querier:
         allow_merge_commit: false
         collaborators:
           vicwicker: admin
