@@ -1750,6 +1750,7 @@ orgs:
         - istvanballok
         - Bobi-Wan
         - iypetrov
+        - TeodorDichev
         privacy: closed
         repos:
           observability: admin
@@ -1849,11 +1850,12 @@ orgs:
         description: ""
         maintainers:
         - nickytd
+        - iypetrov
+        - Bobi-Wan
         members:
         - dnaeon
         - rrhubenov
-        - Bobi-Wan
-        - iypetrov
+        - TeodorDichev
         privacy: closed
         repos:
           kube-rbac-proxy-watcher: maintain
@@ -1939,13 +1941,14 @@ orgs:
         - dnaeon
         - nickytd
         - rrhubenov
-        members:
         - chrkl
+        members:
         - vicwicker
         - rickardsjp
         - istvanballok
         - Bobi-Wan
         - iypetrov
+        - TeodorDichev
         privacy: closed
         repos:
           gardener-extension-otelcol: maintain
