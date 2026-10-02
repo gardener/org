@@ -1753,6 +1753,7 @@ orgs:
         privacy: closed
         repos:
           observability: admin
+          promql-querier: admin
       gardenlogin-maintainers:
         description: ""
         maintainers:
