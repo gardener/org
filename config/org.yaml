@@ -8,7 +8,6 @@ orgs:
     has_repository_projects: true
     location: Germany
     admins:
-    - gardener-ci-robot
     - 8R0WNI3
     - AndreasBurger
     - ashwani2k
@@ -67,6 +66,7 @@ orgs:
     - finally-fancy
     - gagan16k
     - gardener-answering-machine
+    - gardener-ci-robot
     - Gchbg
     - georgibaltiev
     - grolu
