@@ -1769,6 +1769,7 @@ orgs:
         description: GDC maintainers
         members:
         - AndreasBurger
+        - matthias-horne
         privacy: closed
         repos:
           gardener-extension-provider-gdc: maintain
