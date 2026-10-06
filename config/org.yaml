@@ -655,6 +655,19 @@ orgs:
         default_branch: main
         description: Gardener extension controller for traefik ingress. (https://github.com/traefik/traefik)
         has_projects: true
+      gardener-gdc-ci:
+        allow_rebase_merge: false
+        collaborators:
+          AndreasBurger: admin
+          dilipkumar2k6: admin
+          fuzzdota: admin
+          HophinKibona: admin
+          matthias-horne: admin
+        default_branch: main
+        description: Release pipeline orchestration for Gardener provider extensions on Google Distributed Cloud air-gapped.
+        has_projects: false
+        has_wiki: false
+        homepage: https://cloud.google.com/distributed-cloud-air-gapped
       gardener-security-advisories-tracker:
         collaborators:
           vpnachev: admin
@@ -1769,9 +1782,11 @@ orgs:
         description: GDC maintainers
         members:
         - AndreasBurger
+        - matthias-horne
         privacy: closed
         repos:
           gardener-extension-provider-gdc: maintain
+          gardener-gdc-ci: maintain
           machine-controller-manager-provider-gdc: maintain
       homebrew-tap-maintainers:
         description: ""
