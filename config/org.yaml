@@ -1796,7 +1796,7 @@ orgs:
           gardener-extension-provider-gdc: maintain
           gardener-gdc-ci: maintain
           machine-controller-manager-provider-gdc: maintain
-          external-dns-management: triage
+          external-dns-management: write
       homebrew-tap-maintainers:
         description: ""
         maintainers:
