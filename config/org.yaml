@@ -1788,11 +1788,15 @@ orgs:
         members:
         - AndreasBurger
         - matthias-horne
+        - dilipkumar2k6
+        - fuzzdota
+        - HophinKibona
         privacy: closed
         repos:
           gardener-extension-provider-gdc: maintain
           gardener-gdc-ci: maintain
           machine-controller-manager-provider-gdc: maintain
+          external-dns-management: triage
       homebrew-tap-maintainers:
         description: ""
         maintainers:
