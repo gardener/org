@@ -1073,6 +1073,7 @@ orgs:
         maintainers:
         - marc1404
         - MartinWeindel
+        - Vincinator
         privacy: closed
         repos:
           cert-management: admin
@@ -1346,6 +1347,7 @@ orgs:
         maintainers:
         - marc1404
         - MartinWeindel
+        - Vincinator
         privacy: closed
         repos:
           external-dns-management: admin
@@ -1605,6 +1607,7 @@ orgs:
         members:
         - MartinWeindel
         - timuthy
+        - Vincinator
         privacy: closed
         repos:
           gardener-extension-shoot-cert-service: admin
@@ -1614,6 +1617,7 @@ orgs:
         - marc1404
         members:
         - MartinWeindel
+        - Vincinator
         privacy: closed
         repos:
           gardener-extension-shoot-dns-service: admin
