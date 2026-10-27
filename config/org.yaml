@@ -231,15 +231,6 @@ orgs:
         description: Test infrastructure for the Gardener project.
         has_projects: true
         homepage: https://prow.gardener.cloud
-      cluster-api-provider-gardener:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        collaborators:
-          LucaBernstein: admin
-        description: Cluster API provider for Gardener to manage shoot clusters and their
-          lifecycle via Cluster API.
-        has_projects: true
-        homepage: https://gardener.cloud/blog/2025/08/08-04-cluster-api-provider-gardener/
       controller-manager-library:
         description: Library easing implementation of kubernetes controllers
         has_projects: true
@@ -1109,7 +1100,6 @@ orgs:
         privacy: closed
         repos:
           autoscaler: admin
-          cluster-api-provider-gardener: admin
           dashboard: admin
           dependency-watchdog: admin
           documentation: admin
@@ -1716,7 +1706,6 @@ orgs:
         - tobschli
         privacy: closed
         repos:
-          cluster-api-provider-gardener: maintain
           falco-event-db-schema: write
           falco-event-ingestor: write
           falco-event-provider: write
