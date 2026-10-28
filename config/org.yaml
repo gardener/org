@@ -968,6 +968,10 @@ orgs:
           gardener-ci-robot: admin
         description: Test machinery for orchestration of integration/e2e/smoke style tests
         has_projects: true
+      udpmux:
+        description: udpmux tunnels multiple UDP flows over a single shared port using a custom binary framing protocol.
+          The canonical use case is multiplexing several VPN tunnels through one public port.
+        has_projects: true
       vpn2:
         collaborators:
           DockToFuture: admin
@@ -1937,6 +1941,18 @@ orgs:
         privacy: closed
         repos:
           network-traffic-gauger: admin
+      udpmux-maintainers:
+        description: Maintainers of udpmux repository
+        maintainers:
+          - ScheererJ
+        members:
+          - domdom82
+          - axel7born
+          - DockToFuture
+          - anluerz
+        privacy: closed
+        repos:
+          udpmux: admin
       oidc-webhook-authenticator-maintainers:
         description: ""
         maintainers:
