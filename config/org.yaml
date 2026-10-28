@@ -969,12 +969,6 @@ orgs:
         description: Test machinery for orchestration of integration/e2e/smoke style tests
         has_projects: true
       udpmux:
-        collaborators:
-          DockToFuture: admin
-          ScheererJ: admin
-          anluerz: admin
-          axel7born: admin
-          domdom82: admin
         description: udpmux tunnels multiple UDP flows over a single shared port using a custom binary framing protocol.
           The canonical use case is multiplexing several VPN tunnels through one public port.
         has_projects: true
