@@ -20,6 +20,34 @@ body:
     - "private"
   validations:
     required: true
+- id: repo_type
+  type: dropdown
+  attributes:
+    label: What type of repository is this?
+    description: >
+      The type determines additional requirements. New Gardener extensions introduced into
+      the official GitHub organization require a Gardener Enhancement Proposal (GEP) to be
+      approved by the Technical Steering Committee (TSC) before the repository can be created.
+      See https://gardener.cloud/community/steering/#key-considerations-for-topics for details.
+    multiple: false
+    options:
+    - "Gardener extension (requires approved GEP)"
+    - "Controller manager / operator"
+    - "Tool / utility"
+    - "Other"
+  validations:
+    required: true
+- id: gep_link
+  type: input
+  attributes:
+    label: Link to approved GEP (required for Gardener extensions)
+    description: >
+      If this repository is for a new Gardener extension, provide the link to the approved GEP issue
+      in the gardener/enhancements repository. The GEP must be approved by the TSC before the
+      repository will be created. Leave blank for non-extension repositories.
+    placeholder: "e.g. https://github.com/gardener/enhancements/issue/123"
+  validations:
+    required: false
 - id: owners
   type: input
   attributes:
@@ -30,15 +58,25 @@ body:
 - id: description
   type: textarea
   attributes:
+    description: >
+      Describe what this repository is for, what problem it solves, and how it fits into
+      the Gardener ecosystem. This should be sufficient for maintainers and sponsors to
+      evaluate the request.
     label: What should the repo description be?
     placeholder: |
-      By default we will set it to "created due to (link to this issue)"
+      - What does this repository do?
+      - Why is a new repository needed (vs. contributing to an existing one)?
+      - Who are the intended users or consumers?
   validations:
-    required: false
+    required: true
 - id: sponsors
   type: textarea
   attributes:
     label: Please provide GitHub handle of repository sponsors
+    description: >
+      Sponsors are existing Gardener org members who vouch for the repository and its maintainers.
+      This issue will not be processed until at least one listed sponsor has confirmed their support
+      by commenting on this issue.
     placeholder: e.g. @alice, @bob
   validations:
     required: true
