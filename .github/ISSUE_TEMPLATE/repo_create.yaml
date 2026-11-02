@@ -14,12 +14,27 @@ body:
   type: dropdown
   attributes:
     label: What should be the repo visibility?
+    description: >
+      Repositories in the Gardener organization are public by default. Private repositories
+      are an exception and require a justification below.
     multiple: false
     options:
     - "public"
-    - "private"
+    - "private (requires justification)"
   validations:
     required: true
+- id: private_justification
+  type: textarea
+  attributes:
+    label: Justification for private visibility
+    description: >
+      Required if private visibility was selected above. Explain why public visibility is not
+      suitable (e.g. sensitive data, embargoed security work, contractual obligation).
+    placeholder: |
+      Why must this repository be private?
+      Is there a plan to make it public in the future?
+  validations:
+    required: false
 - id: repo_type
   type: dropdown
   attributes:
