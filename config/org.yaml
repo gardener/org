@@ -701,36 +701,28 @@ orgs:
         has_projects: true
       hackathon:
         collaborators:
-          AleksandarSavchev: triage
+          afritzler: triage
           BoHristova: triage
-          Bobi-Wan: triage
-          JordanJordanov: admin
+          databus23: triage
+          Gerrit91: triage
+          hammadzf: triage
+          hown3d: triage
+          jamand: triage
+          julestree: triage
           Kostov6: triage
           LucaBernstein: triage
-          MartinWeindel: triage
-          RadaBDimitrova: triage
-          ScheererJ: triage
-          dimitar-kostadinov: triage
-          dimityrmirchev: admin
-          dkistner: admin
-          dnaeon: triage
-          donistz: triage
-          georgibaltiev: triage
-          ialidzhikov: triage
+          maboehm: triage
+          majst01: triage
           marc1404: admin
-          mimiteto: triage
-          n-boshnakov: triage
-          nickytd: admin
-          oliver-goetz: admin
-          plkokanov: triage
-          rfranzke: admin
-          rrhubenov: admin
-          theoddora: triage
+          matthias-horne: triage
+          mhoffmann-noris: triage
+          moritzfalke: triage
+          RadaBDimitrova: triage
+          SamiraBriongos: triage
+          ScheererJ: triage
           timebertt: triage
-          timuthy: triage
-          tobschli: admin
-          vitanovs: triage
-          vpnachev: triage
+          Velin-Todorov: triage
+          vknabel: triage
         default_branch: main
         has_projects: true
         has_wiki: false
