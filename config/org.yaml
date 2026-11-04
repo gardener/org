@@ -182,7 +182,6 @@ orgs:
       auditlog-forwarder:
         collaborators:
           dimityrmirchev: admin
-          gardener-ci-robot: admin
         default_branch: main
         description: A webhook server capable of enhancing Kubernetes audit events and
           sending them to multiple backend systems
@@ -207,8 +206,6 @@ orgs:
         description: CI/CD utils for gardener project
         has_projects: true
       cert-management:
-        collaborators:
-          gardener-ci-robot: admin
         description: Manages TLS certificates in Kubernetes clusters using custom resources
         has_projects: true
       chaos-engineering:
@@ -218,15 +215,12 @@ orgs:
       chocolatey-packages:
         allow_merge_commit: false
         allow_rebase_merge: false
-        collaborators:
-          gardener-ci-robot: admin
         description: This repository contains chocolatey packages for tools from `github.com/gardener`.
         has_projects: true
       ci-infra:
         allow_merge_commit: false
         allow_rebase_merge: false
         collaborators:
-          gardener-ci-robot: admin
           timebertt: write
         description: Test infrastructure for the Gardener project.
         has_projects: true
@@ -343,8 +337,6 @@ orgs:
         description: External authorization server for envoy-proxy
         has_projects: true
       external-dns-management:
-        collaborators:
-          gardener-ci-robot: admin
         description: Environment to manage external DNS entries for a kubernetes cluster
         has_projects: true
       falco-event-db-schema:
@@ -365,7 +357,6 @@ orgs:
       garden-shoot-trust-configurator:
         collaborators:
           dimityrmirchev: admin
-          gardener-ci-robot: admin
         default_branch: main
         description: Enable shoot clusters with Managed Service Account Issuer to be registered
           as trusted clusters in the Garden cluster.
@@ -409,8 +400,6 @@ orgs:
       gardener-extension-auditing:
         allow_merge_commit: false
         allow_rebase_merge: false
-        collaborators:
-          gardener-ci-robot: admin
         default_branch: main
         has_projects: true
       gardener-extension-diki:
@@ -600,8 +589,6 @@ orgs:
         has_wiki: false
         homepage: https://gardener.cloud
       gardener-extension-shoot-falco-service:
-        collaborators:
-          gardener-ci-robot: admin
         default_branch: main
         description: Gardener extension controller to deploy Falco into shoot clusters.
         has_projects: true
@@ -678,7 +665,6 @@ orgs:
         collaborators:
           LucaBernstein: admin
           MartinWeindel: admin
-          gardener-ci-robot: admin
           oliver-goetz: admin
           timuthy: admin
         default_branch: main
@@ -730,13 +716,9 @@ orgs:
       homebrew-tap:
         allow_merge_commit: false
         allow_rebase_merge: false
-        collaborators:
-          gardener-ci-robot: admin
         description: Provides Gardener tools via Homebrew package
         has_projects: true
       hyperkube:
-        collaborators:
-          gardener-ci-robot: admin
         has_projects: false
         has_wiki: false
       ingress-default-backend:
@@ -900,21 +882,16 @@ orgs:
         description: Gardener opentelemetry collector distribution
         has_projects: true
       ops-toolbelt:
-        collaborators:
-          gardener-ci-robot: admin
         description: Useful tools and operations guide for gardener landscapes
         has_projects: true
       org:
         collaborators:
           LucaBernstein: read
-          gardener-ci-robot: admin
           timuthy: maintain
         default_branch: main
         description: Meta configuration for Gardener GitHub Org
         has_projects: true
       pvc-autoscaler:
-        collaborators:
-          gardener-ci-robot: admin
         description: Kubernetes PVC autoscaler
         has_projects: true
       quic-reverse-http-tunnel:
@@ -956,8 +933,6 @@ orgs:
         description: 'Used for the webterminal feature of the gardener/dashboard '
         has_projects: true
       test-infra:
-        collaborators:
-          gardener-ci-robot: admin
         description: Test machinery for orchestration of integration/e2e/smoke style tests
         has_projects: true
       udpmux:
@@ -1089,50 +1064,6 @@ orgs:
         privacy: closed
         repos:
           chocolatey-packages: admin
-      ci:
-        description: Used for setting webhooks (admin rights required on repos)
-        members:
-        - gardener-ci-robot
-        privacy: closed
-        repos:
-          autoscaler: admin
-          dashboard: admin
-          dependency-watchdog: admin
-          documentation: admin
-          etcd-backup-restore: admin
-          etcd-druid: write
-          falco-event-ingestor: admin
-          gardenctl-v2: admin
-          gardener: admin
-          gardener-discovery-server: admin
-          gardener-extension-image-rewriter: admin
-          gardener-extension-networking-calico: admin
-          gardener-extension-networking-cilium: admin
-          gardener-extension-os-coreos: admin
-          gardener-extension-os-gardenlinux: admin
-          gardener-extension-os-suse-chost: admin
-          gardener-extension-os-ubuntu: admin
-          gardener-extension-provider-alicloud: admin
-          gardener-extension-provider-aws: admin
-          gardener-extension-provider-azure: admin
-          gardener-extension-provider-gcp: admin
-          gardener-extension-provider-gdc: admin
-          gardener-extension-provider-openstack: admin
-          gardener-extension-registry-cache: admin
-          gardener-extension-runtime-gvisor: admin
-          gardener-extension-shoot-cert-service: admin
-          gardener-extension-shoot-dns-service: admin
-          gardener-extension-shoot-oidc-service: write
-          gardener-extension-shoot-rsyslog-relp: admin
-          gardener-metrics-exporter: admin
-          gardenlogin: admin
-          ingress-default-backend: admin
-          k8s-conformance: write
-          logging: write
-          machine-controller-manager: admin
-          oidc-apps-controller: write
-          service-account-issuer-discovery: admin
-          terminal-controller-manager: admin
       ci-infra-collaborators:
         description: People working on Gardener prow
         maintainers:
