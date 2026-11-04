@@ -1585,7 +1585,7 @@ orgs:
         - MartinWeindel
         privacy: closed
         repos:
-          gardener-extension-runtime-gvisor: write
+          gardener-extension-runtime-gvisor: admin
       gardener-extension-shoot-cert-service-maintainers:
         description: Maintainers of https://github.com/gardener/gardener-extension-shoot-cert-service
         maintainers:
