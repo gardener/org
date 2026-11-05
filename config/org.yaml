@@ -1311,6 +1311,7 @@ orgs:
         - Roncossek
         - jan-meis
         - moritzfalke
+        - fhardt
         privacy: closed
         repos:
           gardener: read
