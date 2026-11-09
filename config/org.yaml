@@ -687,28 +687,28 @@ orgs:
         has_projects: true
       hackathon:
         collaborators:
-          afritzler: triage
-          BoHristova: triage
-          databus23: triage
-          Gerrit91: triage
-          hammadzf: triage
-          hown3d: triage
-          jamand: triage
-          julestree: triage
-          Kostov6: triage
-          LucaBernstein: triage
-          maboehm: triage
-          majst01: triage
+          afritzler: write
+          BoHristova: write
+          databus23: write
+          Gerrit91: write
+          hammadzf: write
+          hown3d: write
+          jamand: write
+          julestree: write
+          Kostov6: write
+          LucaBernstein: write
+          maboehm: write
+          majst01: write
           marc1404: admin
-          matthias-horne: triage
-          mhoffmann-noris: triage
-          moritzfalke: triage
-          RadaBDimitrova: triage
-          SamiraBriongos: triage
-          ScheererJ: triage
-          timebertt: triage
-          Velin-Todorov: triage
-          vknabel: triage
+          matthias-horne: write
+          mhoffmann-noris: write
+          moritzfalke: write
+          RadaBDimitrova: write
+          SamiraBriongos: write
+          ScheererJ: write
+          timebertt: write
+          Velin-Todorov: write
+          vknabel: write
         default_branch: main
         has_projects: true
         has_wiki: false
