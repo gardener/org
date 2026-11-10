@@ -50,6 +50,7 @@ orgs:
     - chrisbal-b
     - chrisstiefel
     - chrkl
+    - david-hass
     - DelinaDeng
     - dergeberl
     - Diaphteiros
@@ -1660,6 +1661,7 @@ orgs:
       gardener-triage:
         description: Gardener triage – Members have write access to repositories to edit issues that belong to others as well (e.g. umbrella issues).
         members:
+          - david-hass
           - dimitar-kostadinov
           - DobromirNPeev
           - MartinWeindel
