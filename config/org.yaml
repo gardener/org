@@ -490,7 +490,9 @@ orgs:
         homepage: https://gardener.cloud
       gardener-extension-otelcol:
         collaborators:
+          iypetrov: admin
           dnaeon: admin
+        allow_merge_commit: false
         default_branch: main
         description: Gardener Extension for OpenTelemetry Collector in shoot clusters
         has_projects: true
