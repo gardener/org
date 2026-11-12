@@ -1455,8 +1455,8 @@ orgs:
         - matthias-horne
         privacy: closed
         repos:
-          aws-custom-route-controller: maintain
-          ecr-credential-provider: maintain
+          aws-custom-route-controller: admin
+          ecr-credential-provider: admin
           gardener-extension-provider-aws: admin
           machine-controller-manager-provider-aws: write
       gardener-extension-provider-azure-maintainers:
