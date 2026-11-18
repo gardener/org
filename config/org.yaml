@@ -448,7 +448,7 @@ orgs:
           amshuman-kr: read
           dergeberl: maintain
           nschad: maintain
-          robinschneider: maintain
+          robinschneider: admin
           timebertt: maintain
         description: Gardener extension controller for the CoreOS/Flatcar Container Linux
           operating system.
