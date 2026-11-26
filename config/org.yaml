@@ -265,6 +265,7 @@ orgs:
       docforge:
         collaborators:
           ialidzhikov: write
+          klocke-io: admin
         description: Scalable build tool for distributed documentation sources
         has_projects: true
       documentation:
